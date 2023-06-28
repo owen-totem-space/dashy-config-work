@@ -1,0 +1,220 @@
+appConfig:
+  fontAwesomeKey: 92628a3f90
+  statusCheck: false
+  theme: nord
+  layout: auto
+  iconSize: medium
+  background: /img/pexels-rahul-716398.jpg
+  hideComponents:
+    hideSearch: true
+    hideFooter: true
+    hideSettings: true
+
+# pages:
+#   - name:
+#     path:
+
+pageInfo:
+  title: Dashboard
+  description: Links to awesome places
+  navLinks:
+    - title: Home
+      path: /
+
+sections:
+  - name: Office 365
+    displayData:
+      sectionLayout: grid
+      itemCountX: 8
+      itemSize: medium
+      cols: 3
+    items:
+      - title: Office
+        description: Office web app
+        icon: si-microsoft
+        url: https://office.com
+
+      - title: Outlook
+        description: Microsoft Outlook
+        icon: generative
+        url: https://outlook.office.com
+
+      - title: Dept. Email
+        description: Media Services Inbox
+        icon: generative
+        url: https://outlook.office.com/mail/mediaservices@rcsi.ie
+
+      - title: Teams
+        description: Microsoft Teams
+        icon: favicon
+        url: https://teams.microsoft.com/l/app/<appId>
+
+      - title: OneDrive
+        description: Microsoft OneDrive
+        icon: generative
+        url: https://rcsicampus-my.sharepoint.com
+
+      - title: To-Do
+        description: Microsoft To-Do
+        icon: favicon
+        url: https://to-do.office.com
+
+      - title: Sharepoint
+        description: Dept. sharepoint page
+        icon: generative
+        url: https://rcsicampus.sharepoint.com/sites/MediaServicesStaff
+
+      - title: Guides
+        subItems:
+          - title: Sharepoint IT Guides
+            description: IT guides sharepoint page
+            icon: generative
+            url: https://rcsicampus..sharepoint.com/sites/itguides
+          - title: Sharepoint IT Guides
+            description: IT guides sharepoint page
+            icon: generative
+            url: https://rcsicampus..sharepoint.com/sites/itguides
+          - title: Sharepoint IT Guides
+            description: IT guides sharepoint page
+            icon: generative
+            url: https://rcsicampus..sharepoint.com/sites/itguides
+
+  - name: Crestron
+    icon: fa-solid fa-film
+    displayData:
+      rows: 2
+      sectionLayout: grid
+      itemCountX: 2
+    # itemSize: medium
+    items:
+      - title: Crestron.com
+        icon: favicon
+        url: https://crestron.com
+
+      - title: CTI | Training
+        description: Crestron training dashboard
+        icon: favicon
+        url: https://trainingapps.crestron.com
+
+      - title: Support
+        description: Main answer index for crestron
+        icon: favicon
+        url: https://support.crestron.com
+
+      - title: Resource Library
+        description: Software, firmware, manuals
+        icon: favicon
+        url: https://crestron.com/Support/Resource-Library
+
+      - title: XiO Cloud
+        description: Crestron cloud portal
+        icon: favicon
+        url: https://portal.crestron.io
+
+      - title: Dev Tools
+        description: Crestron developer tools
+        icon: favicon
+        url: https://crestron.com/developer
+
+      - title: Availability
+        description: Estimated availability of crestron products
+        icon: favicon
+        url: https://crestron.com/pro/app/pricing-availability
+
+      - title: App Market
+        description: Programming modules
+        icon: favicon
+        url: https://applicationmarket.crestron.com
+
+      - title: Reddit
+        description: r/crestron
+        icon: favicon
+        url: https://reddit.com/r/crestron
+
+      - title: Drivers
+        description: Crestron driver web portal
+        icon: favicon
+        url: https://drivers.crestron.io
+
+  - name: Work
+    displayData:
+      cols: 2
+      # sectionLayout: grid
+      # itemCountX: 5
+    icon: fa-solid fa-smile
+    items:
+      - title: Trackplan
+        description: Facility management, job tracker
+        icon: favicon
+        url: https://app.trackplanfm.com
+
+      - title: Ungerboeck
+        description: Room booking and management
+        icon: favicon
+        url: https://rcsi.ungerboeck.com
+
+      - title: Staff Portal
+        description: RCSI staff website
+        icon: favicon
+        url: https://staff.rcsi.ie
+
+      - title: CoreHR
+        description: RCSI HR portal
+        icon: favicon
+        url: https://my.corehr.com/pls/coreportal_rcsip
+
+      - title: Work Vivo
+        description: RCSI Workvivo
+        icon: favicon
+        url: https://home.rcsi.com
+
+      - title: IT Portal
+        description: RCSI IT support tickets
+        icon: favicon
+        url: https://evros.uk.cloudradial.com
+
+      - title: Moodle
+        description: RCSI moodle
+        icon: favicon
+        url: https://vle.rcsi.com
+
+      - title: Agresso
+        description: Finance, PO, invoices
+        icon: favicon
+        url: https://ubw.unit4cloud.com/ie_rcs_prod_web_adfs
+
+      - title: Google Drive
+        description: Google drive
+        icon: favicon
+        url: https://drive.google.com
+
+  - name: Suppliers
+    icon: fa-solid fa-shopping-cart
+    displayData:
+      sectionLayout: grid
+      itemCountX: 3
+    # itemSize: medium
+    items:
+      - title: Radionics
+        icon: favicon
+        url: https://ie.rs-online.com
+
+      - title: Farnell
+        description: ""
+        icon: favicon
+        url: https://ie.farnell.com
+
+      - title: Peats
+        description: AV & Tech wholesaler
+        icon: favicon
+        url: https://peats.ie
+
+      - title: Canford UK
+        description: Mostly audio stuff.
+        icon: favicon
+        url: https://canford.co.uk
+
+      - title: Elara
+        description: IT stuff
+        icon: favicon
+        url: https://elara.ie
