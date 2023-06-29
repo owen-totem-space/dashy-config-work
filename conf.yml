@@ -4,11 +4,12 @@ appConfig:
   theme: nord
   layout: auto
   iconSize: medium
-  background: /img/pexels-rahul-716398.jpg
+  backgroundImg: /img/pexels-rahul-716398.jpg
   hideComponents:
     hideSearch: true
     hideFooter: true
     hideSettings: true
+  # customCss: ".clock p.time { font-size: 3rem !important; }"
 
 # pages:
 #   - name:
@@ -22,126 +23,32 @@ pageInfo:
       path: /
 
 sections:
-  - name: Office 365
-    displayData:
-      sectionLayout: grid
-      itemCountX: 8
-      itemSize: medium
-      cols: 3
-    items:
-      - title: Office
-        description: Office web app
-        icon: si-microsoft
-        url: https://office.com
-
-      - title: Outlook
-        description: Microsoft Outlook
-        icon: generative
-        url: https://outlook.office.com
-
-      - title: Dept. Email
-        description: Media Services Inbox
-        icon: generative
-        url: https://outlook.office.com/mail/mediaservices@rcsi.ie
-
-      - title: Teams
-        description: Microsoft Teams
-        icon: favicon
-        url: https://teams.microsoft.com/l/app/<appId>
-
-      - title: OneDrive
-        description: Microsoft OneDrive
-        icon: generative
-        url: https://rcsicampus-my.sharepoint.com
-
-      - title: To-Do
-        description: Microsoft To-Do
-        icon: favicon
-        url: https://to-do.office.com
-
-      - title: Sharepoint
-        description: Dept. sharepoint page
-        icon: generative
-        url: https://rcsicampus.sharepoint.com/sites/MediaServicesStaff
-
-      - title: Guides
-        subItems:
-          - title: Sharepoint IT Guides
-            description: IT guides sharepoint page
-            icon: generative
-            url: https://rcsicampus..sharepoint.com/sites/itguides
-          - title: Sharepoint IT Guides
-            description: IT guides sharepoint page
-            icon: generative
-            url: https://rcsicampus..sharepoint.com/sites/itguides
-          - title: Sharepoint IT Guides
-            description: IT guides sharepoint page
-            icon: generative
-            url: https://rcsicampus..sharepoint.com/sites/itguides
-
-  - name: Crestron
-    icon: fa-solid fa-film
+  - name: Today
+    icon: fa-solid fa-smile-beam
     displayData:
       rows: 2
-      sectionLayout: grid
-      itemCountX: 2
-    # itemSize: medium
-    items:
-      - title: Crestron.com
-        icon: favicon
-        url: https://crestron.com
+    widgets:
+      - type: clock
+        options:
+          format: en-IE
+          hideSeconds: true
+          use12Hour: false
+          hideDate: true
 
-      - title: CTI | Training
-        description: Crestron training dashboard
-        icon: favicon
-        url: https://trainingapps.crestron.com
+      - type: rss-feed
+        options:
+          rssUrl: https://waterfordwhispersnews.com/feed/
+          # apiKey: xxxx
+          limit: 1
+          orderBy: pubDate
 
-      - title: Support
-        description: Main answer index for crestron
-        icon: favicon
-        url: https://support.crestron.com
-
-      - title: Resource Library
-        description: Software, firmware, manuals
-        icon: favicon
-        url: https://crestron.com/Support/Resource-Library
-
-      - title: XiO Cloud
-        description: Crestron cloud portal
-        icon: favicon
-        url: https://portal.crestron.io
-
-      - title: Dev Tools
-        description: Crestron developer tools
-        icon: favicon
-        url: https://crestron.com/developer
-
-      - title: Availability
-        description: Estimated availability of crestron products
-        icon: favicon
-        url: https://crestron.com/pro/app/pricing-availability
-
-      - title: App Market
-        description: Programming modules
-        icon: favicon
-        url: https://applicationmarket.crestron.com
-
-      - title: Reddit
-        description: r/crestron
-        icon: favicon
-        url: https://reddit.com/r/crestron
-
-      - title: Drivers
-        description: Crestron driver web portal
-        icon: favicon
-        url: https://drivers.crestron.io
-
-  - name: Work
+  - name: RCSI
     displayData:
       cols: 2
+      itemSize: medium
       # sectionLayout: grid
       # itemCountX: 5
-    icon: fa-solid fa-smile
+    icon: fa-solid fa-building-columns
     items:
       - title: Trackplan
         description: Facility management, job tracker
@@ -183,10 +90,207 @@ sections:
         icon: favicon
         url: https://ubw.unit4cloud.com/ie_rcs_prod_web_adfs
 
-      - title: Google Drive
-        description: Google drive
+  - name: Office 365
+    displayData:
+      # sectionLayout: grid
+      # itemCountX: 4
+      itemSize: medium
+      cols: 1
+      rows: 2
+    icon: fa-brands fa-microsoft
+    items:
+      - title: Office
+        description: Office web app
+        icon: si-microsoft
+        url: https://office.com
+
+      - title: Outlook
+        description: Microsoft Outlook
+        icon: generative
+        url: https://outlook.office.com
+
+      - title: Dept. Email
+        description: Media Services Inbox
+        icon: generative
+        url: https://outlook.office.com/mail/mediaservices@rcsi.ie
+
+      - title: Teams
+        description: Microsoft Teams
         icon: favicon
-        url: https://drive.google.com
+        url: https://teams.microsoft.com/l/app/<appId>
+
+      - title: OneDrive
+        description: Microsoft OneDrive
+        icon: generative
+        url: https://rcsicampus-my.sharepoint.com
+
+      - title: To-Do
+        description: Microsoft To-Do
+        icon: favicon
+        url: https://to-do.office.com
+
+      - title: Sharepoint
+        description: Dept. sharepoint page
+        icon: generative
+        url: https://rcsicampus.sharepoint.com/sites/MediaServicesStaff
+
+  - name: Crestron
+    icon: fa-solid fa-film
+    displayData:
+      # rows: 2
+      cols: 2
+      sectionLayout: grid
+      itemCountX: 3
+      itemSize: large
+    items:
+      - title: Crestron.com
+        description: Homepage
+        icon: favicon
+        url: https://crestron.com
+
+      - title: CTI | Training
+        description: Training dashboard
+        icon: favicon
+        url: https://trainingapps.crestron.com
+
+      - title: Support
+        description: Main answer index
+        icon: favicon
+        url: https://support.crestron.com
+
+      - title: Resource Library
+        description: Software, firmware, manuals
+        icon: favicon
+        url: https://crestron.com/Support/Resource-Library
+
+      - title: XiO Cloud
+        description: Crestron cloud portal
+        icon: favicon
+        url: https://portal.crestron.io
+
+      - title: Availability
+        description: Estimated product availability
+        icon: favicon
+        url: https://crestron.com/pro/app/pricing-availability
+
+      - title: Documentation
+        subItems:
+          - title: Toolbox Man
+            description: Crestron Toolbox Manual
+            icon: generative
+            url: /
+
+          - title: Simpl+ Guide
+            description: Crestron Simpl+ Guide
+            icon: generative
+            url: /
+
+  - name: Crestron Dev
+    icon: fa-solid fa-code
+    displayData:
+      itemSize: small
+      sectionLayout: grid
+      itemCountX: 1
+    items:
+      - title: App Market
+        description: Programming modules
+        icon: favicon
+        url: https://applicationmarket.crestron.com
+
+      - title: Drivers
+        description: Crestron driver web portal
+        icon: favicon
+        url: https://drivers.crestron.io
+
+      - title: Dev Tools
+        description: Crestron developer tools
+        icon: favicon
+        url: https://crestron.com/developer
+
+      - title: Resources
+        subItems:
+          - title: r/crestron
+            description: r/crestron
+            icon: favicon
+            url: https://reddit.com/r/crestron
+
+          - title: r/crestronprogramming
+            description: r/crestronprogramming
+            icon: favicon
+            url: https://reddit.com/r/crestronprogramming
+
+          - title: groups.io/g/gcrestron
+            description: groups.io/g/gcrestron
+            icon: favicon
+            url: https://groups.io/g/crestron
+
+  - name: Crestron Answer Index
+    icon: fa-solid fa-truck-medical
+    displayData:
+      itemSize: large
+      sectionLayout: grid
+      itemCountX: 2
+      cols: 2
+    items:
+      - title: Crestron Answer Index Hub
+        description: Crestron Answer Index Hub
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/411
+
+      - title: XiO Cloud
+        description: XiO Cloud - Getting Started, Tech Tips, Troubleshooting, and Known Issues
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1000074
+
+      - title: XiO Cloud
+        description: XiO Cloud® Platform Answer Index
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1001252
+
+      - title: VC-4
+        description: Crestron Virtual Control (VC-4) Answer Index
+        icon: favicon
+        url: https://support.crestron.com/app/answers/detail/a_id/1001234
+
+      - title: Flex
+        description: Crestron Flex Video Conferencing Answer Index
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1001259
+
+      - title: Firmware
+        description: Firmware Updates - Getting Started & Best Practices
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1000265/kw/update%20firmware
+
+      - title: Simpl
+        description: SIMPL Programming Software Answer Index
+        icon: favicon
+        url: https://support.crestron.com/app/answers/detail/a_id/1001539/kw/certified%20drivers
+
+      - title: VT-Pro
+        description: VT Pro-e® and Smart Graphics® Software Answer Index
+        icon: favicon
+        url: https://support.crestron.com/app/answers/detail/a_id/1001543
+
+      - title: Mercury
+        description: Crestron Mercury® Conferencing Device Answer Index
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1001181
+
+      - title: DM NVX & SM NAX
+        description: DM NVX® and DM NAX™ Device Answer Index
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1001202/kw/answer%20index
+
+      - title: DMPS
+        description: DigitalMedia™ Presentation System (DMPS) Answer Index
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1001524/kw/answer%20index
+
+      - title: Contact Support
+        description: What information should I have when contacting Crestron Support?
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/5413/kw/5413
 
   - name: Suppliers
     icon: fa-solid fa-shopping-cart
@@ -218,3 +322,75 @@ sections:
         description: IT stuff
         icon: favicon
         url: https://elara.ie
+
+      - title: Thomann
+        description: Kerry wrote payment instructions
+        icon: favicon
+        url: https://www.thomann.de
+
+  - name: Guides
+    icon: fa-solid fa-smile
+    displayData:
+      itemSize: small
+    items:
+      - title: IT Guides
+        subItems:
+          - title: Sharepoint IT Guides
+            description: IT guides sharepoint page
+            icon: generative
+            url: https://rcsicampus..sharepoint.com/sites/itguides
+
+          - title: Sharepoint IT Guides
+            description: IT guides sharepoint page
+            icon: generative
+            url: https://rcsicampus..sharepoint.com/sites/itguides
+
+          - title: Sharepoint IT Guides
+            description: IT guides sharepoint page
+            icon: generative
+            url: https://rcsicampus..sharepoint.com/sites/itguides
+
+      - title: MS Guides
+        subItems:
+          - title: Sharepoint IT Guides
+            description: IT guides sharepoint page
+            icon: generative
+            url: https://rcsicampus..sharepoint.com/sites/itguides
+
+          - title: Sharepoint IT Guides
+            description: IT guides sharepoint page
+            icon: generative
+            url: https://rcsicampus..sharepoint.com/sites/itguides
+
+          - title: Sharepoint IT Guides
+            description: IT guides sharepoint page
+            icon: generative
+            url: https://rcsicampus..sharepoint.com/sites/itguides
+
+  - name: Manufacturers
+    displayData:
+      itemSize: small
+      sectionLayout: grid
+      itemCountX: 5
+      cols: 2
+    items:
+      - title: Extron
+        description: homepage
+        icon: favicon
+        url: https://extron.com
+      - title: Sony
+        description: homepage
+        icon: favicon
+        url: /
+
+  - name: Miscellaneous
+    icon: fa-solid fa-bug
+    displayData:
+      itemSize: medium
+      sectionLayout: grid
+      itemCountX: 2
+    items:
+      - title: Google Drive
+        description: Google drive
+        icon: favicon
+        url: https://drive.google.com
