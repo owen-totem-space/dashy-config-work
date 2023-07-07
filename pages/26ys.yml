@@ -1,0 +1,184 @@
+pageInfo:
+  title: Dashboard
+  description: Links to awesome places
+  logo: /img/canvaLogo.png
+  navLinks:
+    - title: Home
+      path: /
+
+sections:
+  - name: TR 321
+    icon: fa-solid fa-building
+    displayData:
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: large
+    items:
+      - title: Crestron CP3
+        description: Crestron CP3 Controller
+        icon: generative
+        url: http://10.103.2.67
+        statusCheck: true
+      - title: Crestron TSW
+        description: Crestron TSW 770
+        icon: generative
+        url: http://10.103.2.20
+        statusCheck: true
+      - title: Crestron Switcher
+        description: Crestron DM-MD-8x1 Switcher
+        icon: generative
+        url: http://10.103.2.72
+        statusCheck: true
+
+  - name: TR 322
+    icon: fa-solid fa-building
+    displayData:
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: large
+    items:
+      - title: Crestron CP3
+        description: Crestron CP3 Controller
+        icon: generative
+        url: http://10.103.2.60
+        statusCheck: true
+      - title: Crestron TSW
+        description: Crestron TSW 552
+        icon: generative
+        url: http://10.103.2.61
+        statusCheck: true
+      - title: Crestron Switcher
+        description: Crestron DM-MD-8x1 Switcher
+        icon: generative
+        url: http://10.103.2.62
+        statusCheck: true
+
+  - name: TR 323
+    icon: fa-solid fa-building
+    displayData:
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: large
+    items:
+      - title: Crestron CP3
+        description: Crestron CP3 Controller
+        icon: generative
+        url: http://10.103.2.57
+        statusCheck: true
+      - title: Crestron TSW
+        description: Crestron TSW 770
+        icon: generative
+        url: http://10.103.2.58
+        statusCheck: true
+      - title: Crestron Switcher
+        description: Crestron DM-MD-8x1 Switcher
+        icon: generative
+        url: http://10.103.2.59
+        statusCheck: true
+
+  - name: TR 324
+    icon: fa-solid fa-building
+    displayData:
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: large
+    items:
+      - title: Crestron CP3
+        description: Crestron CP3 Controller
+        icon: generative
+        url: http://10.103.2.54
+        statusCheck: true
+      - title: Crestron TSW
+        description: Crestron TSW 552
+        icon: generative
+        url: http://10.103.2.55
+        statusCheck: true
+      - title: Crestron Switcher
+        description: Crestron DM-MD-8x1 Switcher
+        icon: generative
+        url: http://10.103.2.56
+        statusCheck: true
+
+  - name: TR 325
+    icon: fa-solid fa-building
+    displayData:
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: large
+    items:
+      - title: Crestron CP3
+        description: Crestron CP3 Controller
+        icon: generative
+        url: http://10.103.2.54
+        statusCheck: true
+      - title: Crestron TSW
+        description: Crestron TSW 770
+        icon: generative
+        url: http://10.103.2.52
+        statusCheck: true
+      - title: Crestron Switcher
+        description: Crestron DM-MD-8x1 Switcher
+        icon: generative
+        url: http://10.103.2.53
+        statusCheck: true
+
+  - name: TR 326
+    icon: fa-solid fa-building
+    displayData:
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: large
+    items:
+      - title: Crestron CP3
+        description: Crestron CP3 Controller
+        icon: generative
+        url: http://10.103.4.41
+        statusCheck: true
+      - title: Crestron TSW
+        description: Crestron TSW 770
+        icon: generative
+        url: http://10.103.4.39
+        statusCheck: true
+      - title: Crestron Switcher
+        description: Crestron DM-MD-8x1 Switcher
+        icon: generative
+        url: http://10.103.4.42
+        statusCheck: true
+
+  - name: Amphitheatre - Floor 2
+    icon: fa-solid fa-building
+    displayData:
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: large
+    items:
+      - title: Crestron CP3
+        description: Crestron CP3 Controller
+        icon: generative
+        url: http://10.103.2.98
+        statusCheck: true
+
+      - title: Extron 1606
+        description: Extron 1606 Switcher
+        icon: generative
+        url: http://10.103.2.104
+        statusCheck: true
+
+      - title: Extron SMP 351
+        description: Extron SMP 351 recorder
+        icon: generative
+        url: http://10.103.2.105
+        statusCheck: true
+
+      - title: Crestron TSW
+        description: Crestron TSW 552
+        icon: generative
+        url: http://10.103.2.102
+        statusCheck: true

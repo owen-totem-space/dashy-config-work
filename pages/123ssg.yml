@@ -1,0 +1,70 @@
+pageInfo:
+  title: Dashboard
+  description: Links to awesome places
+  logo: /img/canvaLogo.png
+  navLinks:
+    - title: Home
+      path: /
+
+sections:
+  - name: O'Flanagan
+    icon: fa-solid fa-building
+    displayData:
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: large
+    items:
+      - title: Crestron CP3
+        description: Crestron CP3 Controller
+        icon: generative
+        url: http://10.103.2.133
+        statusCheck: true
+      - title: Crestron TSW - Booth
+        description: Crestron TSW 770
+        icon: generative
+        url: http://10.103.2.109
+        statusCheck: true
+      - title: Crestron TSW - Lectern
+        description: Crestron TSW 770
+        icon: generative
+        url: http://10.103.2.132
+        statusCheck: true
+      - title: Extron 1606
+        description: Extron 1606
+        icon: generative
+        # url: http://
+        # statusCheck: true
+      - title: Crestron Autoswitcher
+        description: Crestron HD-MD-400-CE
+        icon: generative
+        url: http://10.103.2.134
+        statusCheck: true
+
+  - name: Houston
+    icon: fa-solid fa-building
+    displayData:
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: large
+    items:
+      - title: Crestron CP3
+        description: Crestron CP3 Controller
+        icon: generative
+        url: http://10.103.2.112
+        statusCheck: true
+
+  - name: Cheyne
+    icon: fa-solid fa-building
+    displayData:
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: large
+    items:
+      - title: Crestron CP3
+        description: Crestron CP3 Controller
+        icon: generative
+        url: http://10.103.2.125
+        statusCheck: true

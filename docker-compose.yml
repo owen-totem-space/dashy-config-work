@@ -33,6 +33,7 @@ services:
       - /home/owen/docker/dashy-work/item-icons:/app/public/item-icons
       - /home/owen/docker/dashy-work/img:/app/public/img
       - /home/owen/docker/dashy-work/styles/custom-theme.scss:/app/src/styles/user-defined-themes.scss
+      # - /home/owen/docker/dashy-work/styles:/app/public/styles
       - /home/owen/docker/dashy-work/pages:/app/public/pages
 
     # Set port that web service will be served on. Keep container port as 80

@@ -1,21 +1,25 @@
 appConfig:
   fontAwesomeKey: 92628a3f90
-  # routingMode: hash
   statusCheck: false
-  theme: custom-theme
+  theme: owens-dark-glow
   layout: auto
   iconSize: medium
-  backgroundImg: /img/custom-background.jpg
+  # backgroundImg: /img/custom-background.jpg
   # customCss: ".clock p.time { font-size: 3rem !important; }"
   hideComponents:
     hideSearch: true
     hideFooter: true
     hideSettings: true
-  cssThemes: ["custom-theme"]
+  cssThemes: ["owens-dark-glow"]
+  externalStyleSheet: ["/styles/custom-css.css"]
 
 pages:
   - name: Crestron
     path: /pages/crestron.yml
+  - name: 26 York St.
+    path: /pages/26ys.yml
+  - name: 123 SSG
+    path: /pages/123ssg.yml
 
 pageInfo:
   title: Dashboard
@@ -26,25 +30,6 @@ pageInfo:
       path: /
 
 sections:
-  - name: Today
-    icon: fa-solid fa-smile-beam
-    displayData:
-      rows: 2
-    widgets:
-      - type: clock
-        options:
-          format: en-IE
-          hideSeconds: true
-          use12Hour: false
-          hideDate: true
-
-      - type: rss-feed
-        options:
-          rssUrl: https://waterfordwhispersnews.com/feed/
-          # apiKey: xxxx
-          limit: 1
-          orderBy: pubDate
-
   - name: RCSI
     displayData:
       cols: 2
