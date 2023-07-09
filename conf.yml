@@ -24,7 +24,7 @@ pages:
 pageInfo:
   title: Dashboard
   description: Links to awesome places
-  logo: /img/canvaLogo.png
+  # logo: /img/canvaLogo.png
   navLinks:
     - title: Home
       path: /
