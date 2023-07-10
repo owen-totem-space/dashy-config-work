@@ -4,7 +4,7 @@ appConfig:
   theme: owens-dark-glow
   layout: auto
   iconSize: medium
-  backgroundImg: /img/custom-background.jpg
+  # backgroundImg: /img/custom-background.jpg
   # customCss: ".clock p.time { font-size: 3rem !important; }"
   hideComponents:
     hideSearch: true
