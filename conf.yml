@@ -34,8 +34,8 @@ sections:
     displayData:
       cols: 2
       itemSize: medium
-      # sectionLayout: grid
-      # itemCountX: 5
+      sectionLayout: grid
+      itemCountX: 4
     icon: fa-solid fa-building-columns
     items:
       - title: Trackplan
@@ -158,6 +158,34 @@ sections:
         icon: favicon
         url: https://www.thomann.de
 
+  - name: Miscellaneous
+    icon: fa-solid fa-bug
+    displayData:
+      itemSize: medium
+      sectionLayout: grid
+      itemCountX: 2
+    items:
+      - title: Google Drive
+        description: Google drive
+        icon: favicon
+        url: https://drive.google.com
+
+  - name: Manufacturers
+    icon: fa-solid fa-industry
+    displayData:
+      itemSize: small
+      sectionLayout: grid
+      itemCountX: 3
+    items:
+      - title: Extron
+        description: homepage
+        icon: favicon
+        url: https://extron.com
+      - title: Sony
+        description: homepage
+        icon: favicon
+        url: /
+
   - name: Guides
     icon: fa-solid fa-smile
     displayData:
@@ -196,32 +224,3 @@ sections:
             description: IT guides sharepoint page
             icon: generative
             url: https://rcsicampus..sharepoint.com/sites/itguides
-
-  - name: Manufacturers
-    icon: fa-solid fa-industry
-    displayData:
-      itemSize: small
-      sectionLayout: grid
-      itemCountX: 5
-      cols: 2
-    items:
-      - title: Extron
-        description: homepage
-        icon: favicon
-        url: https://extron.com
-      - title: Sony
-        description: homepage
-        icon: favicon
-        url: /
-
-  - name: Miscellaneous
-    icon: fa-solid fa-bug
-    displayData:
-      itemSize: medium
-      sectionLayout: grid
-      itemCountX: 2
-    items:
-      - title: Google Drive
-        description: Google drive
-        icon: favicon
-        url: https://drive.google.com
