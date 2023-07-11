@@ -11,7 +11,21 @@ appConfig:
     hideFooter: true
     hideSettings: true
   cssThemes: ["owens-dark-glow"]
-  externalStyleSheet: ["/styles/custom-css.css"]
+  # externalStyleSheet: ["/styles/custom-css.css"]
+  auth:
+    # enableGuestAccess: true
+    users:
+      - user: owen
+        hash: "A665A45920422F9D417E4867EFDC4FB8A04A1F3FFF1FA07E998E86F7F7A27AE3"
+        type: admin
+      - user: tester
+        hash: "A665A45920422F9D417E4867EFDC4FB8A04A1F3FFF1FA07E998E86F7F7A27AE3"
+        type: normal
+  preventWriteToDisk: true
+  preventLocalSave: true
+  # disableConfiguration: true
+  disableConfigurationForNonAdmin: true
+  disableContextMenu: true
 
 pages:
   - name: Crestron
@@ -20,8 +34,8 @@ pages:
     path: /pages/26ys.yml
   - name: 123 SSG
     path: /pages/123ssg.yml
-  # - name: Utilities
-  #   path: /pages/utils.yml
+  - name: Utilities
+    path: /pages/utils.yml
 
 pageInfo:
   title: Dashboard
@@ -175,7 +189,7 @@ sections:
     displayData:
       sectionLayout: grid
       itemCountX: 3
-    itemSize: medium
+      itemSize: medium
     items:
       - title: Radionics
         icon: favicon

@@ -65,12 +65,13 @@ sections:
   - name: Tools & Utilities
     icon: fa-solid fa-toolbox
     displayData:
+      showForUsers: [owen]
       sectionLayout: small
       itemCountX: 5
       cols: 2
       itemSize: medium
     items:
-      - title: MD table formatter
+      - title: MD Format
         url: http://markdowntable.com/
         icon: favicon
 
@@ -97,6 +98,10 @@ sections:
       - title: VS Code Web
         url: https://vscode.dev/
         icon: favicon
+
+      - title: Hash Generator
+        url: https://passwordsgenerator.net/sha256-hash-generator/
+        icon: generative
 
   - name: Learning
     icon: fa-solid fa-graduation
