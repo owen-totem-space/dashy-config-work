@@ -20,8 +20,8 @@ pages:
     path: /pages/26ys.yml
   - name: 123 SSG
     path: /pages/123ssg.yml
-  - name: Utilities
-    path: /pages/utils.yml
+  # - name: Utilities
+  #   path: /pages/utils.yml
 
 pageInfo:
   title: Dashboard
@@ -38,7 +38,7 @@ sections:
       itemSize: medium
       cols: 2
       sectionLayout: grid
-      itemCountX: 5
+      itemCountX: 4
     items:
       - title: Fusion
         description: Crestron Fusion
@@ -64,9 +64,9 @@ sections:
     icon: fa-brands fa-microsoft
     displayData:
       sectionLayout: grid
-      itemCountX: 3
+      itemCountX: 4
       itemSize: medium
-      cols: 1
+      cols: 2
       rows: 2
     items:
       - title: Office
@@ -161,11 +161,47 @@ sections:
   - name: Miscellaneous
     icon: fa-solid fa-bug
     displayData:
-      itemSize: medium
+      itemSize: small
       sectionLayout: grid
-      itemCountX: 3
+      itemCountX: 2
     items:
       - title: Google Drive
         description: Google drive
         icon: favicon
         url: https://drive.google.com
+
+  - name: Suppliers
+    icon: fa-solid fa-shopping-cart
+    displayData:
+      sectionLayout: grid
+      itemCountX: 3
+    itemSize: medium
+    items:
+      - title: Radionics
+        icon: favicon
+        url: https://ie.rs-online.com
+
+      - title: Farnell
+        description: ""
+        icon: favicon
+        url: https://ie.farnell.com
+
+      - title: Peats
+        description: AV & Tech wholesaler
+        icon: favicon
+        url: https://peats.ie
+
+      - title: Canford UK
+        description: Mostly audio stuff.
+        icon: favicon
+        url: https://canford.co.uk
+
+      - title: Elara
+        description: IT stuff
+        icon: favicon
+        url: https://elara.ie
+
+      - title: Thomann
+        description: Kerry wrote payment instructions
+        icon: favicon
+        url: https://www.thomann.de

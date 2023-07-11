@@ -136,4 +136,10 @@ html[data-theme="owens-dark-glow"] {
       display: none;
     }
   }
+
+  @media (min-width: 1599px) {
+    .home .item-group-container {
+      --col-count: 4;
+    }
+  }
 }
