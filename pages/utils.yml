@@ -1,0 +1,99 @@
+pageInfo:
+  title: Dashboard
+  description: Links to awesome places
+  logo: /img/canvaLogo.png
+  navLinks:
+    - title: Home
+      path: /
+
+sections:
+  - name: Suppliers
+    icon: fa-solid fa-shopping-cart
+    displayData:
+      sectionLayout: grid
+      itemCountX: 3
+    # itemSize: medium
+    items:
+      - title: Radionics
+        icon: favicon
+        url: https://ie.rs-online.com
+
+      - title: Farnell
+        description: ""
+        icon: favicon
+        url: https://ie.farnell.com
+
+      - title: Peats
+        description: AV & Tech wholesaler
+        icon: favicon
+        url: https://peats.ie
+
+      - title: Canford UK
+        description: Mostly audio stuff.
+        icon: favicon
+        url: https://canford.co.uk
+
+      - title: Elara
+        description: IT stuff
+        icon: favicon
+        url: https://elara.ie
+
+      - title: Thomann
+        description: Kerry wrote payment instructions
+        icon: favicon
+        url: https://www.thomann.de
+
+  - name: Manufacturers
+    icon: fa-solid fa-industry
+    displayData:
+      itemSize: small
+      sectionLayout: grid
+      itemCountX: 3
+    items:
+      - title: Extron
+        description: homepage
+        icon: favicon
+        url: https://extron.com
+      - title: Sony
+        description: homepage
+        icon: favicon
+        url: /
+
+  - name: Guides
+    icon: fa-solid fa-smile
+    displayData:
+      itemSize: small
+    items:
+      - title: IT Guides
+        subItems:
+          - title: Sharepoint IT Guides
+            description: IT guides sharepoint page
+            icon: generative
+            url: https://rcsicampus..sharepoint.com/sites/itguides
+
+          - title: Sharepoint IT Guides
+            description: IT guides sharepoint page
+            icon: generative
+            url: https://rcsicampus..sharepoint.com/sites/itguides
+
+          - title: Sharepoint IT Guides
+            description: IT guides sharepoint page
+            icon: generative
+            url: https://rcsicampus..sharepoint.com/sites/itguides
+
+      - title: MS Guides
+        subItems:
+          - title: Sharepoint IT Guides
+            description: IT guides sharepoint page
+            icon: generative
+            url: https://rcsicampus..sharepoint.com/sites/itguides
+
+          - title: Sharepoint IT Guides
+            description: IT guides sharepoint page
+            icon: generative
+            url: https://rcsicampus..sharepoint.com/sites/itguides
+
+          - title: Sharepoint IT Guides
+            description: IT guides sharepoint page
+            icon: generative
+            url: https://rcsicampus..sharepoint.com/sites/itguides

@@ -30,12 +30,84 @@ pageInfo:
       path: /
 
 sections:
+  - name: Servers
+    icon: fa-solid fa-server
+    displayData:
+      itemSize: medium
+      cols: 2
+      sectionLayout: grid
+      itemCountX: 5
+    items:
+      - title: Fusion
+        description: Crestron Fusion
+        icon: generative
+        url: http://10.100.8.44/Fusion/WebClient
+
+      - title: XiO Cloud
+        description: Crestron XiO Cloud
+        icon: generative
+        url: http://portal.crestron.io
+
+      - title: Cockpit
+        description: Sennheiser Cockpit
+        icon: generative
+        url: /
+
+      - title: VC-4
+        description: Crestron VC-4 Server
+        icon: generative
+        url: /
+
+  - name: Office 365
+    icon: fa-brands fa-microsoft
+    displayData:
+      sectionLayout: grid
+      itemCountX: 3
+      itemSize: medium
+      cols: 1
+      rows: 2
+    items:
+      - title: Office
+        description: Office web app
+        icon: si-microsoft
+        url: https://office.com
+
+      - title: Outlook
+        description: Microsoft Outlook
+        icon: si-microsoftoutlook
+        url: https://outlook.office.com
+
+      - title: Outlook Dept.
+        description: Media Services Inbox
+        icon: si-microsoftoutlook
+        url: https://outlook.office.com/mail/mediaservices@rcsi.ie
+
+      - title: Teams
+        description: Microsoft Teams
+        icon: si-microsoftteams
+        url: https://teams.microsoft.com/l/app/<appId>
+
+      - title: OneDrive
+        description: Microsoft OneDrive
+        icon: si-microsoftonedrive
+        url: https://rcsicampus-my.sharepoint.com
+
+      - title: To-Do
+        description: Microsoft To-Do
+        icon: favicon
+        url: https://to-do.office.com
+
+      - title: Sharepoint
+        description: Dept. sharepoint page
+        icon: si-microsoftsharepoint
+        url: https://rcsicampus.sharepoint.com/sites/MediaServicesStaff
+
   - name: RCSI
     displayData:
       cols: 2
-      itemSize: medium
+      itemSize: large
       sectionLayout: grid
-      itemCountX: 4
+      itemCountX: 3
     icon: fa-solid fa-building-columns
     items:
       - title: Trackplan
@@ -78,149 +150,15 @@ sections:
         icon: fa-solid fa-cash-register
         url: https://ubw.unit4cloud.com/ie_rcs_prod_web_adfs
 
-  - name: Office 365
-    displayData:
-      # sectionLayout: grid
-      # itemCountX: 4
-      itemSize: medium
-      cols: 1
-      rows: 2
-    icon: fa-brands fa-microsoft
-    items:
-      - title: Office
-        description: Office web app
-        icon: si-microsoft
-        url: https://office.com
-
-      - title: Outlook
-        description: Microsoft Outlook
-        icon: si-microsoftoutlook
-        url: https://outlook.office.com
-
-      - title: Outlook Dept.
-        description: Media Services Inbox
-        icon: si-microsoftoutlook
-        url: https://outlook.office.com/mail/mediaservices@rcsi.ie
-
-      - title: Teams
-        description: Microsoft Teams
-        icon: si-microsoftteams
-        url: https://teams.microsoft.com/l/app/<appId>
-
-      - title: OneDrive
-        description: Microsoft OneDrive
-        icon: si-microsoftonedrive
-        url: https://rcsicampus-my.sharepoint.com
-
-      - title: To-Do
-        description: Microsoft To-Do
-        icon: favicon
-        url: https://to-do.office.com
-
-      - title: Sharepoint
-        description: Dept. sharepoint page
-        icon: si-microsoftsharepoint
-        url: https://rcsicampus.sharepoint.com/sites/MediaServicesStaff
-
-  - name: Suppliers
-    icon: fa-solid fa-shopping-cart
-    displayData:
-      sectionLayout: grid
-      itemCountX: 3
-    # itemSize: medium
-    items:
-      - title: Radionics
-        icon: favicon
-        url: https://ie.rs-online.com
-
-      - title: Farnell
-        description: ""
-        icon: favicon
-        url: https://ie.farnell.com
-
-      - title: Peats
-        description: AV & Tech wholesaler
-        icon: favicon
-        url: https://peats.ie
-
-      - title: Canford UK
-        description: Mostly audio stuff.
-        icon: favicon
-        url: https://canford.co.uk
-
-      - title: Elara
-        description: IT stuff
-        icon: favicon
-        url: https://elara.ie
-
-      - title: Thomann
-        description: Kerry wrote payment instructions
-        icon: favicon
-        url: https://www.thomann.de
-
   - name: Miscellaneous
     icon: fa-solid fa-bug
     displayData:
       itemSize: medium
       sectionLayout: grid
-      itemCountX: 2
+      itemCountX: 8
+      cols: 3
     items:
       - title: Google Drive
         description: Google drive
         icon: favicon
         url: https://drive.google.com
-
-  - name: Manufacturers
-    icon: fa-solid fa-industry
-    displayData:
-      itemSize: small
-      sectionLayout: grid
-      itemCountX: 3
-    items:
-      - title: Extron
-        description: homepage
-        icon: favicon
-        url: https://extron.com
-      - title: Sony
-        description: homepage
-        icon: favicon
-        url: /
-
-  - name: Guides
-    icon: fa-solid fa-smile
-    displayData:
-      itemSize: small
-    items:
-      - title: IT Guides
-        subItems:
-          - title: Sharepoint IT Guides
-            description: IT guides sharepoint page
-            icon: generative
-            url: https://rcsicampus..sharepoint.com/sites/itguides
-
-          - title: Sharepoint IT Guides
-            description: IT guides sharepoint page
-            icon: generative
-            url: https://rcsicampus..sharepoint.com/sites/itguides
-
-          - title: Sharepoint IT Guides
-            description: IT guides sharepoint page
-            icon: generative
-            url: https://rcsicampus..sharepoint.com/sites/itguides
-
-      - title: MS Guides
-        subItems:
-          - title: Sharepoint IT Guides
-            description: IT guides sharepoint page
-            icon: generative
-            url: https://rcsicampus..sharepoint.com/sites/itguides
-
-          - title: Sharepoint IT Guides
-            description: IT guides sharepoint page
-            icon: generative
-            url: https://rcsicampus..sharepoint.com/sites/itguides
-
-          - title: Sharepoint IT Guides
-            description: IT guides sharepoint page
-            icon: generative
-            url: https://rcsicampus..sharepoint.com/sites/itguides
