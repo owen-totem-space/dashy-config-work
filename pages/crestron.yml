@@ -59,45 +59,6 @@ sections:
             icon: generative
             url: /
 
-  - name: Crestron Dev
-    icon: fa-solid fa-code
-    displayData:
-      itemSize: small
-      sectionLayout: grid
-      itemCountX: 1
-    items:
-      - title: App Market
-        description: Programming modules
-        icon: favicon
-        url: https://applicationmarket.crestron.com
-
-      - title: Drivers
-        description: Crestron driver web portal
-        icon: favicon
-        url: https://drivers.crestron.io
-
-      - title: Dev Tools
-        description: Crestron developer tools
-        icon: favicon
-        url: https://crestron.com/developer
-
-      - title: Resources
-        subItems:
-          - title: r/crestron
-            description: r/crestron
-            icon: favicon
-            url: https://reddit.com/r/crestron
-
-          - title: r/crestronprogramming
-            description: r/crestronprogramming
-            icon: favicon
-            url: https://reddit.com/r/crestronprogramming
-
-          - title: groups.io/g/gcrestron
-            description: groups.io/g/gcrestron
-            icon: favicon
-            url: https://groups.io/g/crestron
-
   - name: Crestron Answer Index
     icon: fa-solid fa-truck-medical
     displayData:
@@ -105,6 +66,7 @@ sections:
       sectionLayout: grid
       itemCountX: 2
       cols: 2
+      rows: 3
     items:
       - title: Crestron Answer Index Hub
         description: Crestron Answer Index Hub
@@ -165,3 +127,43 @@ sections:
         description: What information should I have when contacting Crestron Support?
         icon: generative
         url: https://support.crestron.com/app/answers/detail/a_id/5413/kw/5413
+
+  - name: Crestron Dev
+    icon: fa-solid fa-code
+    displayData:
+      showForUsers: [owen]
+      itemSize: small
+      sectionLayout: grid
+      itemCountX: 1
+    items:
+      - title: App Market
+        description: Programming modules
+        icon: favicon
+        url: https://applicationmarket.crestron.com
+
+      - title: Drivers
+        description: Crestron driver web portal
+        icon: favicon
+        url: https://drivers.crestron.io
+
+      - title: Dev Tools
+        description: Crestron developer tools
+        icon: favicon
+        url: https://crestron.com/developer
+
+      - title: Resources
+        subItems:
+          - title: r/crestron
+            description: r/crestron
+            icon: si-reddit
+            url: https://reddit.com/r/crestron
+
+          - title: r/crestronprogramming
+            description: r/crestronprogramming
+            icon: si-reddit
+            url: https://reddit.com/r/crestronprogramming
+
+          - title: groups.io/g/gcrestron
+            description: groups.io/g/gcrestron
+            icon: favicon
+            url: https://groups.io/g/crestron

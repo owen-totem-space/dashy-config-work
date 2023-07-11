@@ -61,7 +61,7 @@ sections:
 
       - title: XiO Cloud
         description: Crestron XiO Cloud
-        icon: generative
+        icon: fa-solid fa-cloud
         url: http://portal.crestron.io
 
       - title: Cockpit

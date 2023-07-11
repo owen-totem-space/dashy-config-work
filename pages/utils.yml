@@ -104,7 +104,7 @@ sections:
         icon: generative
 
   - name: Learning
-    icon: fa-solid fa-graduation
+    icon: fa-solid fa-graduation-cap
     displayData:
       itemSize: small
       sectionLayout: grid
