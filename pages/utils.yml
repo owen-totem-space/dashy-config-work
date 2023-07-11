@@ -97,3 +97,50 @@ sections:
             description: IT guides sharepoint page
             icon: generative
             url: https://rcsicampus..sharepoint.com/sites/itguides
+
+  - name: Learning
+    icon: fa-solid fa-graduation
+    displayData:
+      itemSize: small
+      sectionLayout: grid
+      itemCountX: 1
+    items:
+      - title: LinkedIn
+        description: LinkedIn Learning
+        url: https://linkedin.com/learning
+        icon: favicon
+
+  - name: Tools & Utilities
+    icon: fa-solid fa-toolbox
+    displayData:
+      sectionLayout: small
+      itemCountX: 2
+      itemSize: medium
+    items:
+      - title: MD table formatter
+        url: http://markdowntable.com/
+        icon: favicon
+
+      - title: Github
+        url: https://github.com
+        icon: favicon
+
+      - title: Chat GPT
+        url: https://chat.openai.com
+        icon: favicon
+
+      - title: Draw.io
+        url: https://draw.io
+        icon: favicon
+
+      - title: Adobe Express
+        url: https://express.adobe.com/
+        icon: favicon
+
+      - title: CopyChar
+        url: https://copychar.cc
+        icon: favicon
+
+      - title: VS Code Web
+        url: https://vscode.dev/
+        icon: favicon

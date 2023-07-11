@@ -20,6 +20,8 @@ pages:
     path: /pages/26ys.yml
   - name: 123 SSG
     path: /pages/123ssg.yml
+  - name: Utilities
+    path: /pages/utils.yml
 
 pageInfo:
   title: Dashboard
@@ -105,6 +107,7 @@ sections:
   - name: RCSI
     displayData:
       cols: 2
+      rows: 2
       itemSize: large
       sectionLayout: grid
       itemCountX: 3
@@ -114,6 +117,11 @@ sections:
         description: Facility management, job tracker
         icon: favicon
         url: https://app.trackplanfm.com
+
+      - title: Trackplan FM
+        description: Mobile job list
+        icon: favicon
+        url: https://manager.trackplanfm.com/#/job-list
 
       - title: Ungerboeck
         description: Room booking and management
@@ -155,8 +163,7 @@ sections:
     displayData:
       itemSize: medium
       sectionLayout: grid
-      itemCountX: 8
-      cols: 3
+      itemCountX: 3
     items:
       - title: Google Drive
         description: Google drive
