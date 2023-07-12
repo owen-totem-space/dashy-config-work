@@ -130,7 +130,7 @@ sections:
       - title: Trackplan
         description: Facility management, job tracker
         icon: favicon
-        url: https://app.trackplanfm.com
+        url: https://app3.trackplanfm.com
 
       - title: Trackplan FM
         description: Mobile job list
