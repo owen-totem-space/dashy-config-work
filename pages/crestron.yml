@@ -73,25 +73,10 @@ sections:
         icon: generative
         url: https://support.crestron.com/app/answers/detail/a_id/411
 
-      - title: XiO Cloud
-        description: XiO Cloud - Getting Started, Tech Tips, Troubleshooting, and Known Issues
-        icon: generative
-        url: https://support.crestron.com/app/answers/detail/a_id/1000074
-
-      - title: XiO Cloud
-        description: XiO Cloud® Platform Answer Index
-        icon: generative
-        url: https://support.crestron.com/app/answers/detail/a_id/1001252
-
       - title: VC-4
         description: Crestron Virtual Control (VC-4) Answer Index
         icon: generative
         url: https://support.crestron.com/app/answers/detail/a_id/1001234
-
-      - title: Flex
-        description: Crestron Flex Video Conferencing Answer Index
-        icon: generative
-        url: https://support.crestron.com/app/answers/detail/a_id/1001259
 
       - title: Firmware
         description: Firmware Updates - Getting Started & Best Practices
@@ -127,6 +112,100 @@ sections:
         description: What information should I have when contacting Crestron Support?
         icon: generative
         url: https://support.crestron.com/app/answers/detail/a_id/5413/kw/5413
+
+  - name: XiO Cloud
+    icon: fa-solid fa-cloud
+    displayData:
+      itemSize: small
+      sectionLayout: grid
+      itemCountX: 1
+    items:
+      - title: XiO Cloud® Getting Started
+        description: Getting Started, Tech Tips, Troubleshooting, and Known Issues
+        icon: fa-solid fa-cloud
+        url: https://community.crestron.com/s/article/id-1000074
+
+      - title: XiO Cloud® Service Status
+        description: Subscribe to page for email updates
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-5894
+
+      - title: XiO Cloud® User Guide
+        description: User Guide
+        icon: fa-solid fa-cloud
+        url: https://www.crestron.com/getmedia/5480b91a-51af-4db5-90b1-99d864c68b12/mg_ug_crestron_xio_cloud_service
+
+      - title: XiO Cloud® Security Guide
+        description: Security Reference Guide
+        icon: fa-solid fa-cloud
+        url: https://www.crestron.com/getmedia/7519fbb5-e58c-46c7-9ab5-549ac58b507b/mg_sr_xio-cloud-security
+
+      - title: XiO Cloud® Security Article
+        description:
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000076
+
+      - title: XiO Cloud® Answer Index
+        description: XiO Cloud® Answer Index
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1001252
+
+      - title: XiO Cloud® Certified Third-Party Devices
+        description:
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1001716
+
+      - title: XiO Cloud® Room-based Pricing FAQ
+        description:
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000717
+
+      - title: XiO Cloud® Tenant ID
+        description:
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1001130
+
+      - title: XiO Cloud® License Calculator
+        description:
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1001165
+
+      - title: XiO Cloud® SSO SAML Integration / Configuration
+        description:
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000838
+
+  - name: Crestron Flex
+    icon: fa-solid fa-cloud
+    displayData:
+      itemSize: small
+      sectionLayout: grid
+      itemCountX: 1
+    items:
+      - title: Flex - Manually Updating Firmware
+        description: Support Answer
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000862
+
+      - title: Gathering Logs from Crestron Flex systems
+        description: Support Answer
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000347
+
+      - title: Crestron Flex For Microsoft Teams® Rooms (MTR) Systems Insider
+        description: Support Answer
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000471
+
+      - title: Crestron Flex UC-PR Product Insider
+        description: Support Answer
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000889
+
+      - title: Flex
+        description: Crestron Flex Video Conferencing Answer Index
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1001259
 
   - name: Crestron Dev
     icon: fa-solid fa-code
