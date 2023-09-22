@@ -3,8 +3,8 @@
 # You can configure your container here, by modifying this file
 version: "3.8"
 services:
-  dashy:
-    container_name: dashy
+  dashy-work:
+    container_name: dashy-work
 
     # Pull latest image from DockerHub
     image:
@@ -37,7 +37,7 @@ services:
 
     # Set port that web service will be served on. Keep container port as 80
     ports:
-      - 8080:80
+      - 9090:80
 
     # Set any environmental variables
     environment:
