@@ -103,7 +103,11 @@ sections:
         url: https://passwordsgenerator.net/sha256-hash-generator/
         icon: generative
 
-  - name: Learning
+      - title: Online Web Toolkit
+        url: https://www.onlinewebtoolkit.com/hash-generator
+        icon: generative
+
+  # - name: Learning
     icon: fa-solid fa-graduation-cap
     displayData:
       itemSize: small
@@ -114,3 +118,84 @@ sections:
         description: LinkedIn Learning
         url: https://linkedin.com/learning
         icon: favicon
+
+      - title: Documentation
+        subItems:
+          - title: Toolbox Man
+            description: Crestron Toolbox Manual
+            icon: generative
+            url: /
+
+          - title: Simpl+ Guide
+            description: Crestron Simpl+ Guide
+            icon: generative
+            url: /
+
+  # - name: Crestron Answer Index
+    icon: fa-solid fa-truck-medical
+    displayData:
+      itemSize: large
+      sectionLayout: grid
+      itemCountX: 2
+      cols: 2
+      rows: 3
+    items:
+      - title: Getting Started with Online Help
+        description: Getting Started with Crestron Online Help
+        icon: favicon
+        url: https://community.crestron.com/s/article/Getting-Started-with-Online-Help-OLH#Knowledge
+
+      - title: Crestron Answer Index Hub
+        description: Crestron Answer Index Hub
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/411
+
+      - title: XiO Cloud® Answer Index
+        description: XiO Cloud® Answer Index
+        icon: favicon
+        url: https://support.crestron.com/app/answers/detail/a_id/1001252
+
+      - title: VC-4
+        description: Crestron Virtual Control (VC-4) Answer Index
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1001234
+
+      - title: Firmware
+        description: Firmware Updates - Getting Started & Best Practices
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1000265/kw/update%20firmware
+
+      - title: Simpl
+        description: SIMPL Programming Software Answer Index
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1001539/kw/certified%20drivers
+
+      - title: VT-Pro
+        description: VT Pro-e® and Smart Graphics® Software Answer Index
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1001543
+
+      - title: Mercury
+        description: Crestron Mercury® Conferencing Device Answer Index
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1001181
+
+      - title: DM NVX & DM NAX
+        description: DM NVX® and DM NAX™ Device Answer Index
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1001202/kw/answer%20index
+
+      - title: DMPS
+        description: DigitalMedia™ Presentation System (DMPS) Answer Index
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1001524/kw/answer%20index
+
+      - title: Contact Support
+        description: What information should I have when contacting Crestron Support?
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/5413/kw/5413
+
+      - title: Flex
+        description: Crestron Flex Video Conferencing Answer Index
+        icon: generative
+        url: https://support.crestron.com/app/answers/detail/a_id/1001259

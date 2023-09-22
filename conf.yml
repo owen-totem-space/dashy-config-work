@@ -16,11 +16,21 @@ appConfig:
     # enableGuestAccess: true
     users:
       - user: owen
-        hash: "A665A45920422F9D417E4867EFDC4FB8A04A1F3FFF1FA07E998E86F7F7A27AE3"
+        hash: "82b6cff31cfcbe0eb8f2743e3437f4d7274c15b7f61b062c52cfe5f69d4b1b7b"
         type: admin
-      - user: tester
-        hash: "A665A45920422F9D417E4867EFDC4FB8A04A1F3FFF1FA07E998E86F7F7A27AE3"
+      - user: jquinlan@rcsi.com
+        hash: "179d82336230e54f645c86f5f9106e5f36f2a25d8559335a93c415413937cc49"
         type: normal
+      - user: jamiedockerty@rcsi.com
+        hash: "179d82336230e54f645c86f5f9106e5f36f2a25d8559335a93c415413937cc49"
+        type: normal
+      - user: warrentierney@rcsi.com
+        hash: "179d82336230e54f645c86f5f9106e5f36f2a25d8559335a93c415413937cc49"
+        type: normal
+      - user: stephenwest@rcsi.com
+        hash: "179d82336230e54f645c86f5f9106e5f36f2a25d8559335a93c415413937cc49"
+        type: normal
+
   preventWriteToDisk: true
   preventLocalSave: true
   # disableConfiguration: true
@@ -34,8 +44,8 @@ pages:
   #   path: /pages/26ys.yml
   # - name: 123 SSG
   #   path: /pages/123ssg.yml
-  - name: Utilities
-    path: /pages/utils.yml
+  # - name: Utilities
+  #   path: /pages/utils.yml
 
 pageInfo:
   title: Dashboard
@@ -152,11 +162,6 @@ sections:
         icon: fa-regular fa-money-bill-1
         url: https://my.corehr.com/pls/coreportal_rcsip
 
-      - title: Work Vivo
-        description: RCSI Workvivo
-        icon: favicon
-        url: https://home.rcsi.com
-
       - title: IT Portal
         description: RCSI IT support tickets
         icon: favicon
@@ -172,21 +177,9 @@ sections:
         icon: fa-solid fa-cash-register
         url: https://ubw.unit4cloud.com/ie_rcs_prod_web_adfs
 
-  - name: Miscellaneous
-    icon: fa-solid fa-bug
-    displayData:
-      itemSize: small
-      sectionLayout: grid
-      itemCountX: 2
-    items:
-      - title: Google Drive
-        description: Google drive
-        icon: favicon
-        url: https://drive.google.com
-
-      - title: Agresso Form
+      - title: Finance Form
         description: Download Online Requisition Form
-        icon: fa-solid fa-cash-register
+        icon: fa-solid fa-file-excel
         url: https://staff.rcsi.ie/wp-content/uploads/2022/06/Online-Requisitions-Procurement-Validation-Form-2022-05-30-v1.0.xlsb
 
   - name: Suppliers
@@ -224,3 +217,15 @@ sections:
         description: Kerry wrote payment instructions
         icon: favicon
         url: https://www.thomann.de
+
+  - name: Miscellaneous
+    icon: fa-solid fa-bug
+    displayData:
+      itemSize: small
+      sectionLayout: grid
+      itemCountX: 2
+    items:
+      - title: G Drive
+        description: Google drive
+        icon: favicon
+        url: https://drive.google.com
