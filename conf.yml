@@ -40,8 +40,8 @@ appConfig:
 pages:
   - name: Crestron
     path: /pages/crestron.yml
-  # - name: Utilities
-  #   path: /pages/utils.yml
+  - name: Utilities
+    path: /pages/utils.yml
 
 pageInfo:
   title: Dashboard

@@ -7,61 +7,6 @@ pageInfo:
       path: /
 
 sections:
-  - name: Manufacturers
-    icon: fa-solid fa-industry
-    displayData:
-      itemSize: small
-      sectionLayout: grid
-      itemCountX: 3
-    items:
-      - title: Extron
-        description: homepage
-        icon: favicon
-        url: https://extron.com
-      - title: Sony
-        description: homepage
-        icon: favicon
-        url: /
-
-  - name: Guides
-    icon: fa-solid fa-smile
-    displayData:
-      itemSize: small
-    items:
-      - title: IT Guides
-        subItems:
-          - title: Sharepoint IT Guides
-            description: IT guides sharepoint page
-            icon: generative
-            url: https://rcsicampus..sharepoint.com/sites/itguides
-
-          - title: Sharepoint IT Guides
-            description: IT guides sharepoint page
-            icon: generative
-            url: https://rcsicampus..sharepoint.com/sites/itguides
-
-          - title: Sharepoint IT Guides
-            description: IT guides sharepoint page
-            icon: generative
-            url: https://rcsicampus..sharepoint.com/sites/itguides
-
-      - title: MS Guides
-        subItems:
-          - title: Sharepoint IT Guides
-            description: IT guides sharepoint page
-            icon: generative
-            url: https://rcsicampus..sharepoint.com/sites/itguides
-
-          - title: Sharepoint IT Guides
-            description: IT guides sharepoint page
-            icon: generative
-            url: https://rcsicampus..sharepoint.com/sites/itguides
-
-          - title: Sharepoint IT Guides
-            description: IT guides sharepoint page
-            icon: generative
-            url: https://rcsicampus..sharepoint.com/sites/itguides
-
   - name: Tools & Utilities
     icon: fa-solid fa-toolbox
     displayData:
@@ -107,9 +52,10 @@ sections:
         url: https://www.onlinewebtoolkit.com/hash-generator
         icon: generative
 
-  # - name: Learning
+  - name: Learning
     icon: fa-solid fa-graduation-cap
     displayData:
+      showForUsers: [owen]
       itemSize: small
       sectionLayout: grid
       itemCountX: 1
@@ -119,83 +65,90 @@ sections:
         url: https://linkedin.com/learning
         icon: favicon
 
-      - title: Documentation
-        subItems:
-          - title: Toolbox Man
-            description: Crestron Toolbox Manual
-            icon: generative
-            url: /
+      - title: Q-SYS Training
+        description: Q-SYS Learning
+        url: https://training.qsc.com/qsys.php
+        icon: favicon
 
-          - title: Simpl+ Guide
-            description: Crestron Simpl+ Guide
-            icon: generative
-            url: /
+      - title: BiAmp Training
+        description: Bi-Amp Training
+        url: https://www.biamp.com/training/training-overview
+        icon: favicon
+
+  - name: Links
+    icon: fa-solid fa-graduation-cap
+    displayData:
+      showForUsers: [owen]
+      itemSize: small
+      sectionLayout: grid
+      itemCountX: 1
+    items:
+      - title: Link 1
+        description: Description
+        url: /
+        icon: generative
 
   # - name: Crestron Answer Index
-    icon: fa-solid fa-truck-medical
-    displayData:
-      itemSize: large
-      sectionLayout: grid
-      itemCountX: 2
-      cols: 2
-      rows: 3
-    items:
-      - title: Getting Started with Online Help
-        description: Getting Started with Crestron Online Help
-        icon: favicon
-        url: https://community.crestron.com/s/article/Getting-Started-with-Online-Help-OLH#Knowledge
+  #   icon: fa-solid fa-truck-medical
+  #   displayData:
+  #     showForUsers: [owen]
+  #     itemSize: large
+  #     sectionLayout: grid
+  #     itemCountX: 2
+  #     cols: 2
+  #     rows: 3
+  #   items:
+  #     - title: Getting Started with Online Help
+  #       description: Getting Started with Crestron Online Help
+  #       icon: favicon
+  #       url: https://community.crestron.com/s/article/Getting-Started-with-Online-Help-OLH#Knowledge
 
-      - title: Crestron Answer Index Hub
-        description: Crestron Answer Index Hub
-        icon: generative
-        url: https://support.crestron.com/app/answers/detail/a_id/411
+  #     - title: Crestron Answer Index Hub
+  #       description: Crestron Answer Index Hub
+  #       icon: generative
+  #       url: https://support.crestron.com/app/answers/detail/a_id/411
 
-      - title: XiO Cloud® Answer Index
-        description: XiO Cloud® Answer Index
-        icon: favicon
-        url: https://support.crestron.com/app/answers/detail/a_id/1001252
+  #     - title: VC-4
+  #       description: Crestron Virtual Control (VC-4) Answer Index
+  #       icon: generative
+  #       url: https://support.crestron.com/app/answers/detail/a_id/1001234
 
-      - title: VC-4
-        description: Crestron Virtual Control (VC-4) Answer Index
-        icon: generative
-        url: https://support.crestron.com/app/answers/detail/a_id/1001234
+  #     - title: Firmware
+  #       description: Firmware Updates - Getting Started & Best Practices
+  #       icon: generative
+  #       url: https://support.crestron.com/app/answers/detail/a_id/1000265/kw/update%20firmware
 
-      - title: Firmware
-        description: Firmware Updates - Getting Started & Best Practices
-        icon: generative
-        url: https://support.crestron.com/app/answers/detail/a_id/1000265/kw/update%20firmware
+  #     - title: Simpl
+  #       description: SIMPL Programming Software Answer Index
+  #       icon: generative
+  #       url: https://support.crestron.com/app/answers/detail/a_id/1001539/kw/certified%20drivers
 
-      - title: Simpl
-        description: SIMPL Programming Software Answer Index
-        icon: generative
-        url: https://support.crestron.com/app/answers/detail/a_id/1001539/kw/certified%20drivers
+  #     - title: VT-Pro
+  #       description: VT Pro-e® and Smart Graphics® Software Answer Index
+  #       icon: generative
+  #       url: https://support.crestron.com/app/answers/detail/a_id/1001543
 
-      - title: VT-Pro
-        description: VT Pro-e® and Smart Graphics® Software Answer Index
-        icon: generative
-        url: https://support.crestron.com/app/answers/detail/a_id/1001543
+  #     - title: Mercury
+  #       description: Crestron Mercury® Conferencing Device Answer Index
+  #       icon: generative
+  #       url: https://support.crestron.com/app/answers/detail/a_id/1001181
 
-      - title: Mercury
-        description: Crestron Mercury® Conferencing Device Answer Index
-        icon: generative
-        url: https://support.crestron.com/app/answers/detail/a_id/1001181
+  #     - title: DM NVX & DM NAX
+  #       description: DM NVX® and DM NAX™ Device Answer Index
+  #       icon: generative
+  #       url: https://support.crestron.com/app/answers/detail/a_id/1001202/kw/answer%20index
 
-      - title: DM NVX & DM NAX
-        description: DM NVX® and DM NAX™ Device Answer Index
-        icon: generative
-        url: https://support.crestron.com/app/answers/detail/a_id/1001202/kw/answer%20index
+  #     - title: DMPS
+  #       description: DigitalMedia™ Presentation System (DMPS) Answer Index
+  #       icon: generative
+  #       url: https://support.crestron.com/app/answers/detail/a_id/1001524/kw/answer%20index
 
-      - title: DMPS
-        description: DigitalMedia™ Presentation System (DMPS) Answer Index
-        icon: generative
-        url: https://support.crestron.com/app/answers/detail/a_id/1001524/kw/answer%20index
+  #     - title: Contact Support
+  #       description: What information should I have when contacting Crestron Support?
+  #       icon: generative
+  #       url: https://support.crestron.com/app/answers/detail/a_id/5413/kw/5413
 
-      - title: Contact Support
-        description: What information should I have when contacting Crestron Support?
-        icon: generative
-        url: https://support.crestron.com/app/answers/detail/a_id/5413/kw/5413
-
-      - title: Flex
-        description: Crestron Flex Video Conferencing Answer Index
-        icon: generative
-        url: https://support.crestron.com/app/answers/detail/a_id/1001259
+  #     - title: Flex
+  #       description: Crestron Flex Video Conferencing Answer Index
+  #       icon: generative
+  #       url: https://support.crestron.com/app/answers/detail/a_id/1001259
