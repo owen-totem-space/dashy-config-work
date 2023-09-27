@@ -52,6 +52,10 @@ sections:
         url: https://www.onlinewebtoolkit.com/hash-generator
         icon: generative
 
+      - title: RS Cable Guide
+        url: https://docs.rs-online.com/214f/A700000007359365.pdf
+        icon: generative
+
   - name: Learning
     icon: fa-solid fa-graduation-cap
     displayData:
@@ -83,10 +87,10 @@ sections:
       sectionLayout: grid
       itemCountX: 1
     items:
-      - title: Link 1
-        description: Description
-        url: /
-        icon: generative
+      - title: Github
+        description: Github
+        url: https://github.com/owen-totem-space
+        icon: favicon
 
   # - name: Crestron Answer Index
   #   icon: fa-solid fa-truck-medical
