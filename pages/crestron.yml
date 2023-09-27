@@ -65,6 +65,11 @@ sections:
         icon: fa-solid fa-file-pdf
         url: https://www.crestron.com/getmedia/5480b91a-51af-4db5-90b1-99d864c68b12/mg_ug_crestron_xio_cloud_service
 
+      - title: User Guide
+        description: XiO Cloud® User Guide Docs
+        icon: favicon
+        url: https://docs.crestron.com/en-us/8214/Content/Topics/Home.htm
+
       - title: Security Guide
         description: XiO Cloud® Security Reference Guide
         icon: fa-solid fa-file-pdf
@@ -105,8 +110,8 @@ sections:
     displayData:
       itemSize: large
       sectionLayout: grid
-      itemCountX: 1
-      cols: 1
+      itemCountX: 2
+      cols: 2
       # rows: 3
     items:
       - title: Manually Updating Firmware
@@ -128,6 +133,11 @@ sections:
         description: Support for Crestron Flex Systems Running Microsoft Teams® Rooms
         icon: favicon
         url: https://community.crestron.com/s/article/id-1001798
+
+      - title: Flex Product Picker
+        description: Crestron Flex Systems Picker
+        icon: favicon
+        url: https://www.crestron.com/Products/Featured-Solutions/Flex-Product-Picker
 
       - title: Relevant Articles & Docs
         description: Microsoft® Articles & Docs Relevant to Crestron® Flex Systems

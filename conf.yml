@@ -40,10 +40,6 @@ appConfig:
 pages:
   - name: Crestron
     path: /pages/crestron.yml
-  # - name: 26 York St.
-  #   path: /pages/26ys.yml
-  # - name: 123 SSG
-  #   path: /pages/123ssg.yml
   # - name: Utilities
   #   path: /pages/utils.yml
 
@@ -75,9 +71,9 @@ sections:
         url: http://portal.crestron.io
 
       - title: Cockpit
-        description: Sennheiser Cockpit
+        description: Sennheiser Control Cockpit
         icon: generative
-        url: /
+        url: http://10.103.2.107:8181
 
       - title: VC-4
         description: Crestron VC-4 Server
