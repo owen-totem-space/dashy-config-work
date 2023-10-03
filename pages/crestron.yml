@@ -11,9 +11,9 @@ sections:
     icon: fa-solid fa-film
     displayData:
       # rows: 2
-      cols: 1
+      cols: 2
       sectionLayout: grid
-      itemCountX: 1
+      itemCountX: 2
       itemSize: large
     items:
       - title: Crestron.com

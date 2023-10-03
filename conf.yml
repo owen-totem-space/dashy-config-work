@@ -74,10 +74,10 @@ sections:
         icon: fa-solid fa-cloud
         url: http://portal.crestron.io
 
-      - title: Cockpit
+      - title: Cockpit Control
         description: Sennheiser Cockpit
         icon: generative
-        url: /
+        url: http://10.103.2.107:8181/
 
       - title: VC-4
         description: Crestron VC-4 Server
