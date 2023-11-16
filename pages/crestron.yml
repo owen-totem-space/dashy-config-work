@@ -13,7 +13,7 @@ sections:
       # rows: 2
       cols: 2
       sectionLayout: grid
-      itemCountX: 2
+      itemCountX: 3
       itemSize: large
     items:
       - title: Crestron.com
@@ -48,7 +48,7 @@ sections:
       sectionLayout: grid
       itemCountX: 2
       cols: 2
-      # rows: 2
+      rows: 2
     items:
       - title: XiO Cloud® Getting Started
         description: Getting Started, Tech Tips, Troubleshooting, and Known Issues
@@ -105,9 +105,8 @@ sections:
     displayData:
       itemSize: large
       sectionLayout: grid
-      itemCountX: 1
-      cols: 1
-      # rows: 3
+      itemCountX: 2
+      cols: 2
     items:
       - title: Manually Updating Firmware
         description: Flex - Manually Updating Firmware Support Answer

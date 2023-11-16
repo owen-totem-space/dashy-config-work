@@ -72,7 +72,7 @@ sections:
       - title: XiO Cloud
         description: Crestron XiO Cloud
         icon: fa-solid fa-cloud
-        url: http://portal.crestron.io
+        url: http://rcsi-portal.crestron.io
 
       - title: Cockpit Control
         description: Sennheiser Cockpit
@@ -229,3 +229,8 @@ sections:
         description: Google drive
         icon: favicon
         url: https://drive.google.com
+
+      - title: Poly Lens
+        description: Poly Lens Web App
+        icon: favicon
+        url: https://webapp.lens.poly.com
