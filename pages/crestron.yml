@@ -36,10 +36,20 @@ sections:
         icon: favicon
         url: https://crestron.com/Support/Resource-Library
 
-      - title: Availability
-        description: Estimated product availability
+      - title: Online Help Index
+        description: This is a complete listing of all content on Online Help
         icon: favicon
-        url: https://crestron.com/pro/app/pricing-availability
+        url: https://docs.crestron.com/en-us/9450/Content/Topics/Home.htm
+
+      - title: Crestron Connected WebApp
+        description: Search for XiO compatible screens
+        icon: favicon
+        url: https://www.crestron.com/pro/app/Crestron-Connected-Web-App
+
+      - title: Crestron Software Documentation
+        description: Online Manuals for Crestron Software
+        icon: favicon
+        url: https://help.crestron.com/Content/Topics/Home.htm
 
   - name: XiO Cloud
     icon: fa-solid fa-cloud
@@ -61,24 +71,19 @@ sections:
         url: https://community.crestron.com/s/article/id-5894
 
       - title: User Guide
-        description: XiO Cloud® User Guide PDF
-        icon: fa-solid fa-file-pdf
-        url: https://www.crestron.com/getmedia/5480b91a-51af-4db5-90b1-99d864c68b12/mg_ug_crestron_xio_cloud_service
-
-      - title: Security Guide
-        description: XiO Cloud® Security Reference Guide
-        icon: fa-solid fa-file-pdf
-        url: https://www.crestron.com/getmedia/7519fbb5-e58c-46c7-9ab5-549ac58b507b/mg_sr_xio-cloud-security
-
-      - title: Security Support Answer
-        description: XiO Cloud® Security Support Answer
+        description: XiO Cloud® User Guide
         icon: favicon
-        url: https://community.crestron.com/s/article/id-1000076
+        url: https://docs.crestron.com/en-us/8214/Content/Topics/Home.htm
 
       - title: Third-Party Devices
         description: XiO Cloud® Certified Third-Party Devices
         icon: favicon
         url: https://community.crestron.com/s/article/id-1001716
+
+      - title: Security Support Answer
+        description: XiO Cloud® Security Support Answer
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000076
 
       - title: XiO Cloud® Tenant ID
         description: XiO Cloud® Tenant ID
@@ -100,10 +105,15 @@ sections:
         icon: favicon
         url: https://community.crestron.com/s/article/id-1001165
 
-      - title: XiO Compatibile Screens
-        description: List of screens with direct XiO connection
-        icon: favicon
-        url: https://community.crestron.com/s/article/id-1001716
+      - title: User Guide
+        description: XiO Cloud® User Guide PDF
+        icon: fa-solid fa-file-pdf
+        url: https://www.crestron.com/getmedia/5480b91a-51af-4db5-90b1-99d864c68b12/mg_ug_crestron_xio_cloud_service
+
+      - title: Security Guide
+        description: XiO Cloud® Security Reference Guide
+        icon: fa-solid fa-file-pdf
+        url: https://www.crestron.com/getmedia/7519fbb5-e58c-46c7-9ab5-549ac58b507b/mg_sr_xio-cloud-security
 
   - name: Crestron Flex
     icon: fa-solid fa-cloud
@@ -163,6 +173,11 @@ sections:
         icon: favicon
         url: https://community.crestron.com/s/article/id-1000889
 
+      - title: Flex Third Party Cameras and Soundbars
+        description: UC-ENGINE Integration with Third Party Cameras and Soundbars
+        icon: favicon
+        url: https://community.crestron.com/s/article/Crestron-Flex-UC-ENGINE-Integration-with-Third-Party-Cameras-and-Soundbars
+
   - name: Links
     icon: fa-solid fa-code
     displayData:
@@ -179,6 +194,15 @@ sections:
         description: PDF Manual
         icon: favicon
         url: https://docs.crestron.com/en-us/8912/Content/Topics/Home.htm
+
+      - title: Crestron OUI / MAC Address
+        description: Crestron OUI / MAC Address Prefixes
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000368
+
+      - title: Wireshark Basics for the A/V Professional
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-5562
 
   - name: Crestron Dev
     icon: fa-solid fa-code
@@ -202,6 +226,11 @@ sections:
         description: Crestron developer tools
         icon: favicon
         url: https://crestron.com/developer
+
+      - title: Crestron Construct Help
+        description: Crestron Construct Online Help
+        icon: favicon
+        url: https://help.crestron.com/construct/Content/Topics/UI%20Editor/Overview.htm
 
       - title: Resources
         subItems:

@@ -234,3 +234,8 @@ sections:
         description: Poly Lens Web App
         icon: favicon
         url: https://webapp.lens.poly.com
+
+      - title: LG Docs
+        description: Search for LG Manuals/Docs
+        icon: favicon
+        url: https://partner.lge.com/uk/portal/download/download/retrieveManualList.lge
