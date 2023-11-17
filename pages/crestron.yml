@@ -11,9 +11,9 @@ sections:
     icon: fa-solid fa-film
     displayData:
       # rows: 2
-      cols: 2
+      cols: 3
       sectionLayout: grid
-      itemCountX: 3
+      itemCountX: 5
       itemSize: large
     items:
       - title: Crestron.com
@@ -100,6 +100,11 @@ sections:
         icon: favicon
         url: https://community.crestron.com/s/article/id-1001165
 
+      - title: XiO Compatibile Screens
+        description: List of screens with direct XiO connection
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1001716
+
   - name: Crestron Flex
     icon: fa-solid fa-cloud
     displayData:
@@ -108,6 +113,11 @@ sections:
       itemCountX: 2
       cols: 2
     items:
+      - title: Flex Supplemental Guide
+        description: Instructions for installation of Flex UC Systems
+        icon: fa-solid fa-file-pdf
+        url: https://www.crestron.com/getmedia/37077e91-4b19-4c40-b88a-ea45be7e651d/mg_sg_uc-m150-t_uc-b160-t_uc-c160-t
+
       - title: Manually Updating Firmware
         description: Flex - Manually Updating Firmware Support Answer
         icon: favicon
@@ -152,6 +162,23 @@ sections:
         description: Crestron Flex UC-PR Product Insider
         icon: favicon
         url: https://community.crestron.com/s/article/id-1000889
+
+  - name: Links
+    icon: fa-solid fa-code
+    displayData:
+      itemSize: medium
+      sectionLayout: Grid
+      itemCountX: 2
+    items:
+      - title: 4-Series Guide
+        description: PDF Manual
+        icon: fa-solid fa-file-pdf
+        url: https://www.crestron.com/getmedia/7d6b22e7-27f6-4bdc-914b-fbed9e37650e/mg_rg_4-series_control_systems
+
+      - title: VC-4 Guide
+        description: PDF Manual
+        icon: favicon
+        url: https://docs.crestron.com/en-us/8912/Content/Topics/Home.htm
 
   - name: Crestron Dev
     icon: fa-solid fa-code
