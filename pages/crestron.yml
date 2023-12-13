@@ -11,7 +11,7 @@ sections:
     icon: fa-solid fa-film
     displayData:
       # rows: 2
-      cols: 3
+      cols: 4
       sectionLayout: grid
       itemCountX: 5
       itemSize: large
@@ -58,7 +58,7 @@ sections:
       sectionLayout: grid
       itemCountX: 2
       cols: 2
-      rows: 2
+      # rows: 2
     items:
       - title: XiO Cloud® Getting Started
         description: Getting Started, Tech Tips, Troubleshooting, and Known Issues
@@ -122,6 +122,7 @@ sections:
       sectionLayout: grid
       itemCountX: 2
       cols: 2
+      # rows: 2
     items:
       - title: Flex Supplemental Guide
         description: Instructions for installation of Flex UC Systems
@@ -185,6 +186,11 @@ sections:
       sectionLayout: Grid
       itemCountX: 2
     items:
+      - title: Crestron Remote Client
+        description: Remote Client Support Article
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000725
+
       - title: 4-Series Guide
         description: PDF Manual
         icon: fa-solid fa-file-pdf

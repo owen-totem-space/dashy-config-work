@@ -7,7 +7,7 @@ pageInfo:
       path: /
 
 sections:
-  - name: Manufacturers
+  - name: Training
     icon: fa-solid fa-industry
     displayData:
       itemSize: small
@@ -18,10 +18,16 @@ sections:
         description: homepage
         icon: favicon
         url: https://extron.com
-      - title: Sony
-        description: homepage
+
+      - title: Audinate
+        description: Audinate Homepage
         icon: favicon
-        url: /
+        url: https://www.audinate.com/
+
+      - title: QSC
+        description: QSC Training
+        icon: favicon
+        url: https://training.qsc.com/mod/page/view.php?id=560
 
   - name: Guides
     icon: fa-solid fa-smile
@@ -71,6 +77,11 @@ sections:
       cols: 2
       itemSize: medium
     items:
+      - title: Stage Timer
+        description: Show a fullscreen timer to your presenter while you control it from another device
+        icon: favicon
+        url: https://stagetimer.io/
+
       - title: MD Format
         url: http://markdowntable.com/
         icon: favicon
@@ -107,31 +118,7 @@ sections:
         url: https://www.onlinewebtoolkit.com/hash-generator
         icon: generative
 
-  # - name: Learning
-    icon: fa-solid fa-graduation-cap
-    displayData:
-      itemSize: small
-      sectionLayout: grid
-      itemCountX: 1
-    items:
-      - title: LinkedIn
-        description: LinkedIn Learning
-        url: https://linkedin.com/learning
-        icon: favicon
-
-      - title: Documentation
-        subItems:
-          - title: Toolbox Man
-            description: Crestron Toolbox Manual
-            icon: generative
-            url: /
-
-          - title: Simpl+ Guide
-            description: Crestron Simpl+ Guide
-            icon: generative
-            url: /
-
-  # - name: Crestron Answer Index
+  - name: Crestron Answer Index
     icon: fa-solid fa-truck-medical
     displayData:
       itemSize: large
