@@ -175,7 +175,7 @@ sections:
       - title: Agresso
         description: Finance, PO, invoices
         icon: fa-solid fa-cash-register
-        url: https://ubw.unit4cloud.com/ie_rcs_prod_web_adfs
+        url: https://ubw.unit4cloud.com/ie_rcs_prod_web
 
       - title: Finance Form
         description: Download Online Requisition Form
