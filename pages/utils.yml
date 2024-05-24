@@ -186,3 +186,102 @@ sections:
         description: Crestron Flex Video Conferencing Answer Index
         icon: generative
         url: https://support.crestron.com/app/answers/detail/a_id/1001259
+
+  - name: XiO Cloud
+    icon: fa-solid fa-cloud
+    displayData:
+      itemSize: large
+      sectionLayout: grid
+      itemCountX: 2
+      cols: 2
+      # rows: 2
+    items:
+      - title: Security Support Answer
+        description: XiO Cloud® Security Support Answer
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000076
+
+      - title: XiO Cloud® Tenant ID
+        description: XiO Cloud® Tenant ID
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1001130
+
+      - title: SSO SAML Integration
+        description: XiO Cloud® SSO SAML Integration / Configuration
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000838
+
+      - title: Room-based Pricing FAQ
+        description: XiO Cloud® Room-based Pricing FAQ
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000717
+
+      - title: Security Guide
+        description: XiO Cloud® Security Reference Guide
+        icon: fa-solid fa-file-pdf
+        url: https://www.crestron.com/getmedia/7519fbb5-e58c-46c7-9ab5-549ac58b507b/mg_sr_xio-cloud-security
+
+      - title: XiO Cloud® Getting Started
+        description: Getting Started, Tech Tips, Troubleshooting, and Known Issues
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000074
+
+  - name: Crestron Flex
+    icon: fa-solid fa-cloud
+    displayData:
+      itemSize: large
+      sectionLayout: grid
+      itemCountX: 2
+      cols: 2
+      # rows: 2
+    items:
+      - title: Flex Supplemental Guide
+        description: Instructions for installation of Flex UC Systems
+        icon: fa-solid fa-file-pdf
+        url: https://www.crestron.com/getmedia/37077e91-4b19-4c40-b88a-ea45be7e651d/mg_sg_uc-m150-t_uc-b160-t_uc-c160-t
+
+      - title: Flex Third Party Cameras and Soundbars
+        description: UC-ENGINE Integration with Third Party Cameras and Soundbars
+        icon: favicon
+        url: https://community.crestron.com/s/article/Crestron-Flex-UC-ENGINE-Integration-with-Third-Party-Cameras-and-Soundbars
+
+      - title: Custom Backgrounds
+        description: Loading Custom Backgrounds to a Microsoft Teams® Rooms System
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000743
+
+      - title: Support for Flex Systems
+        description: Support for Crestron Flex Systems Running Microsoft Teams® Rooms
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1001798
+
+  - name: Links
+    icon: fa-solid fa-code
+    displayData:
+      itemSize: medium
+      sectionLayout: Grid
+      itemCountX: 2
+    items:
+      - title: Crestron Remote Client
+        description: Remote Client Support Article
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000725
+
+      - title: 4-Series Guide
+        description: PDF Manual
+        icon: fa-solid fa-file-pdf
+        url: https://www.crestron.com/getmedia/7d6b22e7-27f6-4bdc-914b-fbed9e37650e/mg_rg_4-series_control_systems
+
+      - title: VC-4 Guide
+        description: PDF Manual
+        icon: favicon
+        url: https://docs.crestron.com/en-us/8912/Content/Topics/Home.htm
+
+      - title: Crestron OUI / MAC Address
+        description: Crestron OUI / MAC Address Prefixes
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000368
+
+      - title: Wireshark Basics for the A/V Professional
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-5562
