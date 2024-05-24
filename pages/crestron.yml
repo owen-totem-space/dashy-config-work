@@ -11,9 +11,9 @@ sections:
     icon: fa-solid fa-film
     displayData:
       # rows: 2
-      cols: 4
+      cols: 2
       sectionLayout: grid
-      itemCountX: 5
+      itemCountX: 3
       itemSize: large
     items:
       - title: Crestron.com
@@ -53,8 +53,8 @@ sections:
     displayData:
       itemSize: large
       sectionLayout: grid
-      itemCountX: 2
-      cols: 2
+      itemCountX: 1
+      cols: 1
       # rows: 2
     items:
       - title: XiO Cloud® Service Status
@@ -94,8 +94,8 @@ sections:
     displayData:
       itemSize: large
       sectionLayout: grid
-      itemCountX: 2
-      cols: 2
+      itemCountX: 1
+      cols: 1
       # rows: 2
     items:
       - title: Manually Updating Firmware
