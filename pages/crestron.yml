@@ -55,7 +55,7 @@ sections:
       sectionLayout: grid
       itemCountX: 1
       cols: 1
-      # rows: 2
+      rows: 2
     items:
       - title: XiO Cloud® Service Status
         description: Subscribe to page for email updates
@@ -96,7 +96,7 @@ sections:
       sectionLayout: grid
       itemCountX: 1
       cols: 1
-      # rows: 2
+      rows: 2
     items:
       - title: Manually Updating Firmware
         description: Flex - Manually Updating Firmware Support Answer
@@ -157,11 +157,6 @@ sections:
         description: Crestron developer tools
         icon: favicon
         url: https://crestron.com/developer
-
-      - title: Crestron Construct Help
-        description: Crestron Construct Online Help
-        icon: favicon
-        url: https://help.crestron.com/construct/Content/Topics/UI%20Editor/Overview.htm
 
       - title: Resources
         subItems:

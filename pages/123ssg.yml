@@ -7,6 +7,33 @@ pageInfo:
       path: /
 
 sections:
+  - name: XPanels
+    icon: fa-solid fa-building
+    displayData:
+      cols: 4
+      # rows: 2
+      sectionLayout: grid
+      itemCountX: 6
+      itemSize: large
+    items:
+      - title: O'Flanagan
+        description: O'Flanagan XPanel
+        icon: generative
+        url: http://10.103.2.133
+        # statusCheck: true
+
+      - title: Houston XPanel
+        description: Houston XPanel
+        icon: generative
+        url: http://10.103.2.112
+        # statusCheck: true
+
+      - title: Crestron CP3
+        description: Crestron CP3 Controller
+        icon: generative
+        url: http://10.103.2.125
+        # statusCheck: true
+
   - name: O'Flanagan
     icon: fa-solid fa-building
     displayData:
@@ -15,21 +42,6 @@ sections:
       itemCountX: 1
       itemSize: large
     items:
-      - title: Crestron CP3
-        description: Crestron CP3 Controller
-        icon: generative
-        url: http://10.103.2.133
-        # statusCheck: true
-      - title: Crestron TSW - Booth
-        description: Crestron TSW 770
-        icon: generative
-        url: http://10.103.2.109
-        # statusCheck: true
-      - title: Crestron TSW - Lectern
-        description: Crestron TSW 770
-        icon: generative
-        url: http://10.103.2.132
-        # statusCheck: true
       - title: Extron 1606
         description: Extron 1606
         icon: generative
@@ -39,32 +51,4 @@ sections:
         description: Crestron HD-MD-400-CE
         icon: generative
         url: http://10.103.2.134
-        # statusCheck: true
-
-  - name: Houston
-    icon: fa-solid fa-building
-    displayData:
-      cols: 1
-      sectionLayout: grid
-      itemCountX: 1
-      itemSize: large
-    items:
-      - title: Crestron CP3
-        description: Crestron CP3 Controller
-        icon: generative
-        url: http://10.103.2.112
-        # statusCheck: true
-
-  - name: Cheyne
-    icon: fa-solid fa-building
-    displayData:
-      cols: 1
-      sectionLayout: grid
-      itemCountX: 1
-      itemSize: large
-    items:
-      - title: Crestron CP3
-        description: Crestron CP3 Controller
-        icon: generative
-        url: http://10.103.2.125
         # statusCheck: true

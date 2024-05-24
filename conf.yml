@@ -40,10 +40,10 @@ appConfig:
 pages:
   - name: Crestron
     path: crestron.yml
-  # - name: 26 York St.
-  #   path: /pages/26ys.yml
-  # - name: 123 SSG
-  #   path: /pages/123ssg.yml
+  - name: 26 York St.
+    path: /pages/26ys.yml
+  - name: SSG123
+    path: /pages/123ssg.yml
   # - name: Utilities
   #   path: /pages/utils.yml
 
