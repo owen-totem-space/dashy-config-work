@@ -77,7 +77,7 @@ sections:
       - title: Cockpit Control
         description: Sennheiser Cockpit
         icon: generative
-        url: http://10.103.2.107:8181/
+        url: http://10.102.24.53:8181/
 
       - title: VC-4
         description: Crestron VC-4 Server
@@ -235,7 +235,7 @@ sections:
         icon: favicon
         url: https://webapp.lens.poly.com
 
-      - title: LG Docs
-        description: Search for LG Manuals/Docs
+      - title: Github
+        description: Notes
         icon: favicon
-        url: https://partner.lge.com/uk/portal/download/download/retrieveManualList.lge
+        url: https://github.com/owen-totem-space/1.Markdown/blob/main/Team-Map.md
