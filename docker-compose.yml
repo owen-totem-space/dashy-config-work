@@ -29,7 +29,7 @@ services:
 
     # Pass in your config file below, by specifying the path on your host machine
     volumes:
-      - /home/owen/docker/dashy-work/conf.yml:/app/public/conf.yml
+      - /home/owen/docker/dashy-work/conf.yml:/app/user-data/conf.yml
       - /home/owen/docker/dashy-work/pages:/app/public/pages
       - /home/owen/docker/dashy-work/item-icons:/app/public/item-icons
       - /home/owen/docker/dashy-work/img:/app/public/img
@@ -37,7 +37,7 @@ services:
 
     # Set port that web service will be served on. Keep container port as 80
     ports:
-      - 9090:80
+      - 9090:8080
 
     # Set any environmental variables
     environment:

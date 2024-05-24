@@ -31,7 +31,7 @@ appConfig:
         hash: "179d82336230e54f645c86f5f9106e5f36f2a25d8559335a93c415413937cc49"
         type: normal
 
-  preventWriteToDisk: true
+  #preventWriteToDisk: true
   preventLocalSave: true
   # disableConfiguration: true
   disableConfigurationForNonAdmin: true
