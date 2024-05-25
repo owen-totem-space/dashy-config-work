@@ -1,7 +1,7 @@
 appConfig:
   fontAwesomeKey: 92628a3f90
   statusCheck: false
-  theme: owens-dark-glow
+  theme: dark-glow
   layout: auto
   iconSize: medium
   # backgroundImg: /img/custom-background.jpg
@@ -10,7 +10,7 @@ appConfig:
     hideSearch: true
     hideFooter: true
     hideSettings: true
-  cssThemes: ["owens-dark-glow"]
+  cssThemes: ["dark-glow"]
   # externalStyleSheet: ["/styles/custom-css.css"]
   auth:
     # enableGuestAccess: true
@@ -38,14 +38,12 @@ appConfig:
   disableContextMenu: true
 
 pages:
+  - name: Control
+    path: control.yml
+  - name: Other Devices
+    path: other-devices.yml
   - name: Crestron
     path: crestron.yml
-  - name: 26 York St.
-    path: /pages/26ys.yml
-  - name: SSG123
-    path: /pages/123ssg.yml
-  # - name: Utilities
-  #   path: /pages/utils.yml
 
 pageInfo:
   title: Dashboard
@@ -62,11 +60,11 @@ sections:
       itemSize: medium
       cols: 2
       sectionLayout: grid
-      itemCountX: 4
+      itemCountX: 3
     items:
       - title: Fusion
         description: Crestron Fusion
-        icon: generative
+        icon: si-electron
         url: http://10.100.8.44/Fusion/WebClient
 
       - title: XiO Cloud
@@ -74,21 +72,16 @@ sections:
         icon: fa-solid fa-cloud
         url: http://rcsi-portal.crestron.io
 
-      - title: Cockpit Control
-        description: Sennheiser Cockpit
-        icon: generative
+      - title: Sennheiser Cockpit
+        description: Sennheiser Control Cockpit
+        icon: si-Sennheiser
         url: http://10.102.24.53:8181/
-
-      - title: VC-4
-        description: Crestron VC-4 Server
-        icon: generative
-        url: /
 
   - name: Office 365
     icon: fa-brands fa-microsoft
     displayData:
       sectionLayout: grid
-      itemCountX: 4
+      itemCountX: 3
       itemSize: medium
       cols: 2
       rows: 2
@@ -117,11 +110,6 @@ sections:
         description: Microsoft OneDrive
         icon: si-microsoftonedrive
         url: https://rcsicampus-my.sharepoint.com
-
-      - title: To-Do
-        description: Microsoft To-Do
-        icon: favicon
-        url: https://to-do.office.com
 
       - title: Sharepoint
         description: Dept. sharepoint page
@@ -239,3 +227,49 @@ sections:
         description: Notes
         icon: favicon
         url: https://github.com/owen-totem-space/1.Markdown/blob/main/Team-Map.md
+
+  - name: Tools & Utilities
+    icon: fa-solid fa-toolbox
+    displayData:
+      showForUsers: [owen]
+      sectionLayout: small
+      itemCountX: 9
+      cols: 4
+      itemSize: medium
+    items:
+      - title: Chat GPT
+        url: https://chat.openai.com
+        icon: si-openai
+
+      - title: Stage Timer
+        description: Show a fullscreen timer to your presenter while you control it from another device
+        icon: favicon
+        url: https://stagetimer.io/
+
+      - title: Draw.io
+        url: https://draw.io
+        icon: favicon
+
+      - title: Adobe Express
+        url: https://express.adobe.com/
+        icon: si-adobe
+
+      - title: Have i been pwned?
+        url: https://haveibeenpwned.com/
+        icon: si-haveibeenpwned
+
+      - title: MD Table Format
+        url: http://markdowntable.com/
+        icon: si-markdown
+
+      - title: Online Web Toolkit
+        url: https://www.onlinewebtoolkit.com/hash-generator
+        icon: fa-solid fa-toolbox
+
+      - title: CopyChar
+        url: https://copychar.cc
+        icon: favicon
+
+      - title: Hash Generator
+        url: https://passwordsgenerator.net/sha256-hash-generator/
+        icon: generative

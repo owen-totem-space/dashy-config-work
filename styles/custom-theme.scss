@@ -1,4 +1,4 @@
-html[data-theme="owens-dark-glow"] {
+html[data-theme="dark-glow"] {
   // Custom Variables
   --background-lighter: rgb(23, 35, 54);
   --background-lighter1: rgb(44, 65, 102);
@@ -44,7 +44,7 @@ html[data-theme="owens-dark-glow"] {
  * Custom CSS 
  *
  */
-html[data-theme="owens-dark-glow"] {
+html[data-theme="dark-glow"] {
   & .rss-wrapper .post-body {
     font-family: var(--font-monospace);
   }
@@ -92,6 +92,7 @@ html[data-theme="owens-dark-glow"] {
     &.size-small {
       & .tile-title {
         font-weight: 600;
+        min-width: 70%;
       }
     }
   }

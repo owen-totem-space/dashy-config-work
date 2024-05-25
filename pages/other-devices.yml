@@ -1,0 +1,304 @@
+pageInfo:
+  title: Dashboard
+  description: Links to awesome places
+  logo: /img/canvaLogo.png
+  navLinks:
+    - title: Home
+      path: /
+
+sections:
+  ###################################
+  # 123 SSG
+  ###################################
+  - name: O'Flanagan
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: Extron 1606
+        description: Extron 1606
+        icon: fa-solid fa-network-wired
+        url: http://
+        # # statusCheck: true
+
+      - title: Autoswitcher
+        description: Crestron HD-MD-400-CE
+        icon: fa-solid fa-network-wired
+        url: http://10.103.2.134
+        # statusCheck: true
+
+  - name: Houston
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: Autoswitcher
+        description: Crestron HD-MD-400-CE
+        icon: fa-solid fa-network-wired
+        # url: http://10.103.2.134
+        # statusCheck: true
+
+  - name: Cheyne
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: Autoswitcher
+        description: Crestron HD-MD-400-CE
+        icon: fa-solid fa-network-wired
+        # url: http://10.103.2.134
+        # statusCheck: true
+
+  - name: College Hall
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: Autoswitcher
+        description: Crestron HD-MD-400-CE
+        icon: fa-solid fa-network-wired
+        url: http://10.2.160.45
+        # # statusCheck: true
+
+  - name: Physio Movement
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: Autoswitcher
+        description: Crestron HD-MD-400-CE
+        icon: fa-solid fa-network-wired
+        # url: http://10.103.2.134
+        # statusCheck: true
+
+  ###################################
+  # 26 York Street
+  ###################################
+  - name: Amphitheatre - Floor 2
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: Extron 1606
+        description: Extron 1606 Switcher
+        icon: fa-solid fa-network-wired
+        url: http://10.103.2.178
+        # statusCheck: true
+
+      - title: Extron SMP 351
+        description: Extron SMP 351 recorder
+        icon: fa-solid fa-network-wired
+        url: http://10.103.2.105
+        # statusCheck: true
+
+      - title: Sony Bravia
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-tv
+        url: http://10.103.2.204/sony/webui
+        # statusCheck: true
+
+  - name: Desmond
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: Extron MGP
+        description: Extron MGP
+        icon: fa-solid fa-network-wired
+        # url: http://10.103.2.134
+        # statusCheck: true
+
+      - title: Soundstructure
+        description: Extron MGP
+        icon: fa-solid fa-network-wired
+        # url: http://10.103.2.134
+        # statusCheck: true
+
+  ###################################
+  # 121 SSG
+  ###################################
+  - name: Kiran Pathak Lab
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      # rows: 2
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: QSC Core
+        description: KPL QSC Core
+        icon: fa-solid fa-network-wired
+        url: http://10.2.176.213
+        # statusCheck: true
+      - title: Extron 1606
+        description: Extron 1606
+        icon: fa-solid fa-network-wired
+        url: http://10.2.176.231
+        # statusCheck: true
+      - title: Sony Bravia Centre
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-tv
+        url: http://10.2.176.60/sony/webui
+        # statusCheck: true
+      - title: Sony Bravia Left
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-tv
+        url: http://10.2.176.63/sony/webui
+        # statusCheck: true
+      - title: Sony Bravia Right
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-tv
+        url: http://10.2.176.223/sony/webui
+        # statusCheck: true
+
+  - name: Meeting Room 1-01
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      # rows: 2
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: Sony Bravia Left
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-network-wired
+        # url: http://10.2.176.213
+        # statusCheck: true
+      - title: Sony Bravia Right
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-network-wired
+        # url: http://10.2.176.213
+        # statusCheck: true
+
+  - name: Meeting Room 3-02
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      # rows: 2
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: Sony Bravia Left
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-network-wired
+        # url: http://10.2.176.213
+        # statusCheck: true
+      - title: Sony Bravia Right
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-network-wired
+        # url: http://10.2.176.213
+        # statusCheck: true
+
+  - name: Meeting Room 4-01
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      # rows: 2
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: Sony Bravia Left
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-network-wired
+        # url: http://10.2.176.213
+        # statusCheck: true
+      - title: Sony Bravia Right
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-network-wired
+        # url: http://10.2.176.213
+        # statusCheck: true
+
+  ###################################
+  # Ardilaun - Block B
+  ###################################
+  - name: Study Room - Block B
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      # rows: 2
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: QSC Core
+        description: Study Room QSC Core
+        icon: fa-solid fa-network-wired
+        # url: http://10.2.176.213
+
+      - title: Extron 1804
+        description: Extron 1804
+        icon: fa-solid fa-network-wired
+        # url: http://10.2.176.213
+
+      - title: Sony Bravia 1
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-tv
+        # url: http://10.103.2.204/sony/webui
+        # statusCheck: true
+
+      - title: Sony Bravia 2
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-tv
+        # url: http://10.103.2.204/sony/webui
+        # statusCheck: true
+
+      - title: Sony Bravia 3
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-tv
+        # url: http://10.103.2.204/sony/webui
+        # statusCheck: true
+
+      - title: Sony Bravia 4
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-tv
+        # url: http://10.103.2.204/sony/webui
+        # statusCheck: true
+
+      - title: Sony Bravia 5
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-tv
+        # url: http://10.103.2.204/sony/webui
+        # statusCheck: true
+
+      - title: Sony Bravia 6
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-tv
+        # url: http://10.103.2.204/sony/webui
+        # statusCheck: true
