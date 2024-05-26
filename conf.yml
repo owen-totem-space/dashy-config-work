@@ -35,7 +35,7 @@ appConfig:
   preventLocalSave: true
   # disableConfiguration: true
   disableConfigurationForNonAdmin: true
-  disableContextMenu: true
+  # disableContextMenu: true
 
 pages:
   - name: Control
@@ -43,7 +43,8 @@ pages:
   - name: Other Devices
     path: other-devices.yml
   - name: Crestron
-    path: crestron.yml
+    # path: crestron.yml
+    path: https://gist.githubusercontent.com/owen-totem-space/b7c3e98bc5b2232c36ba8901ee13791f/raw/f3289ed72092289948ec7cc007df244639b6c72f/dashy-crestron.yml
 
 pageInfo:
   title: Dashboard
