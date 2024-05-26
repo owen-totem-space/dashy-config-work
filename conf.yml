@@ -182,27 +182,27 @@ sections:
         url: https://ie.rs-online.com
 
       - title: Farnell
-        description: ""
+        # description: ""
         icon: favicon
         url: https://ie.farnell.com
 
       - title: Peats
-        description: AV & Tech wholesaler
+        # description: AV & Tech wholesaler
         icon: favicon
         url: https://peats.ie
 
       - title: Canford UK
-        description: Mostly audio stuff.
+        # description: Mostly audio stuff.
         icon: favicon
         url: https://canford.co.uk
 
       - title: Elara
-        description: IT stuff
+        # description: IT stuff
         icon: favicon
         url: https://elara.ie
 
       - title: Thomann
-        description: Kerry wrote payment instructions
+        # description: Kerry wrote payment instructions
         icon: favicon
         url: https://www.thomann.de
 
@@ -231,7 +231,7 @@ sections:
   - name: Tools & Utilities
     icon: fa-solid fa-toolbox
     displayData:
-      showForUsers: [owen]
+      # showForUsers: [owen]
       sectionLayout: small
       itemCountX: 9
       cols: 4
@@ -242,7 +242,7 @@ sections:
         icon: si-openai
 
       - title: Stage Timer
-        description: Show a fullscreen timer to your presenter while you control it from another device
+        # description: Show a fullscreen timer to your presenter while you control it from another device
         icon: favicon
         url: https://stagetimer.io/
 
@@ -250,17 +250,9 @@ sections:
         url: https://draw.io
         icon: favicon
 
-      - title: Adobe Express
-        url: https://express.adobe.com/
-        icon: si-adobe
-
       - title: Have i been pwned?
         url: https://haveibeenpwned.com/
         icon: si-haveibeenpwned
-
-      - title: MD Table Format
-        url: http://markdowntable.com/
-        icon: si-markdown
 
       - title: Online Web Toolkit
         url: https://www.onlinewebtoolkit.com/hash-generator

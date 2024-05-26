@@ -31,12 +31,12 @@ services:
     volumes:
       - /home/owen/docker/dashy-work/conf.yml:/app/user-data/conf.yml
       - /home/owen/docker/dashy-work/pages:/app/user-data
-      - /home/owen/docker/dashy-work/item-icons:/app/user-data/item-icons
-      - /home/owen/docker/dashy-work/img:/app/user-data/img
+      # - /home/owen/docker/dashy-work/item-icons:/app/user-data/item-icons
+      - /home/owen/docker/dashy-work/img:/app/user-data
       - /home/owen/docker/dashy-work/styles/custom-theme.scss:/app/src/styles/user-defined-themes.scss
 
     # Set port that web service will be served on. Keep container port as 80
-    # UPDATE: It appears that only port 8080 is working, 8080 is default docker port in server.js
+    # UPDATE: Port 8080 is the new port in the latest version of dashy. 8080 is default docker port in server.js
     ports:
       - 9090:8080
 

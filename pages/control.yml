@@ -8,9 +8,7 @@ pageInfo:
 
 sections:
   ###################################
-  #
   # Cameras
-  #
   ###################################
   - name: Cameras
     icon: fa-solid fa-building
@@ -71,11 +69,9 @@ sections:
         url: http://10.2.176.220
         # statusCheck: true
 
-      ###################################
-      #
-      # 123 SSG
-      #
-      ###################################
+  ###################################
+  # 123 SSG
+  ###################################
   - name: 123 SSG
     icon: fa-solid fa-building
     displayData:
@@ -116,11 +112,9 @@ sections:
         url: http://10.103.2.125
         # statusCheck: true
 
-      ###################################
-      #
-      # 26 York Street
-      #
-      ###################################
+  ###################################
+  # 26 York Street
+  ###################################
   - name: 26 York Street
     icon: fa-solid fa-building
     displayData:
@@ -147,11 +141,9 @@ sections:
         url: http://10.103.2.92
         # statusCheck: true
 
-      ###################################
-      #
-      # 26YS Tutorial Rooms
-      #
-      ###################################
+  ###################################
+  # 26YS Tutorial Rooms
+  ###################################
   - name: 26YS Tutorial Rooms
     icon: fa-solid fa-building
     displayData:

@@ -13,7 +13,7 @@ sections:
       # rows: 2
       cols: 4
       sectionLayout: grid
-      itemCountX: 5
+      itemCountX: 6
       itemSize: large
     items:
       - title: XiO Cloud
@@ -40,6 +40,11 @@ sections:
         description: Software, firmware, manuals
         icon: favicon
         url: https://crestron.com/Support/Resource-Library
+
+      - title: My Links
+        description: My Github Notes, Crestron OLH Links
+        icon: favicon
+        url: https://github.com/owen-totem-space/1.Markdown/blob/main/05-Team/02-Resources/Crestron-OLH-Links.md
 
   - name: XiO Cloud
     icon: fa-solid fa-cloud

@@ -20,9 +20,9 @@ html[data-theme="dark-glow"] {
   --dimming-factor: 0.6;
   --background: linear-gradient(
       90deg,
-      rgba(var(--background-rgb), 0.96) 0%,
-      rgba(var(--background-rgb), 0.96) 4%,
-      rgba(var(--background-rgb), 0.96) 100%
+      rgba(var(--background-rgb), 0.99) 0%,
+      rgba(var(--background-rgb), 0.99) 4%,
+      rgba(var(--background-rgb), 0.99) 100%
     ),
     url(/img/custom-background.jpg) no-repeat center center fixed;
   // --item-group-outer-background: rgba(255, 255, 255, 0.03);
