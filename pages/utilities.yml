@@ -1,0 +1,46 @@
+pageInfo:
+  title: Dashboard
+  description: Links to awesome places
+  logo: /img/canvaLogo.png
+  navLinks:
+    - title: Home
+      path: /
+
+sections:
+  - name: Tools & Utilities
+    icon: fa-solid fa-toolbox
+    displayData:
+      # showForUsers: [owen]
+      sectionLayout: grid
+      itemCountX: 9
+      cols: 4
+      itemSize: medium
+    items:
+      - title: Chat GPT
+        url: https://chat.openai.com
+        icon: si-openai
+
+      - title: Stage Timer
+        # description: Show a fullscreen timer to your presenter while you control it from another device
+        icon: favicon
+        url: https://stagetimer.io/
+
+      - title: Draw.io
+        url: https://draw.io
+        icon: favicon
+
+      - title: Have i been pwned?
+        url: https://haveibeenpwned.com/
+        icon: si-haveibeenpwned
+
+      - title: Online Web Toolkit
+        url: https://www.onlinewebtoolkit.com/hash-generator
+        icon: fa-solid fa-toolbox
+
+      - title: CopyChar
+        url: https://copychar.cc
+        icon: favicon
+
+      - title: Hash Generator
+        url: https://passwordsgenerator.net/sha256-hash-generator/
+        icon: generative
