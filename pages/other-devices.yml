@@ -22,7 +22,7 @@ sections:
       - title: Extron 1606
         description: Extron 1606
         icon: fa-solid fa-network-wired
-        url: http://
+        # url: http://
         # # statusCheck: true
 
       - title: Autoswitcher
@@ -43,7 +43,7 @@ sections:
       - title: Autoswitcher
         description: Crestron HD-MD-400-CE
         icon: fa-solid fa-network-wired
-        # url: http://10.103.2.134
+        url: http://10.103.2.130
         # statusCheck: true
 
   - name: Cheyne
@@ -58,7 +58,7 @@ sections:
       - title: Autoswitcher
         description: Crestron HD-MD-400-CE
         icon: fa-solid fa-network-wired
-        # url: http://10.103.2.134
+        url: http://10.103.2.127
         # statusCheck: true
 
   - name: College Hall
@@ -88,7 +88,58 @@ sections:
       - title: Autoswitcher
         description: Crestron HD-MD-400-CE
         icon: fa-solid fa-network-wired
-        # url: http://10.103.2.134
+        url: http://10.103.2.166
+        # statusCheck: true
+
+  - name: PBS Meeting - 3rd Floor
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: Autoswitcher
+        description: Crestron HD-MD-400-CE
+        icon: fa-solid fa-network-wired
+        url: http://10.2.216.90
+        # statusCheck: true
+
+  - name: Mary Emily Dowson Room
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: Sony Bravia Left
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-network-wired
+        url: http://10.2.128.54/sony/webui
+        # statusCheck: true
+
+      - title: Sony Bravia Right
+        description: Sony Bravia WebUI
+        icon: fa-solid fa-network-wired
+        url: http://10.2.128.58/sony/webui
+        # statusCheck: true
+
+  - name: TR 3
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: Soundstructure
+        description: Poly Soundstructure
+        icon: fa-solid fa-network-wired
+        url: http://10.103.2.140
         # statusCheck: true
 
   ###################################
@@ -130,16 +181,16 @@ sections:
       itemCountX: 1
       itemSize: small
     items:
-      - title: Extron MGP
-        description: Extron MGP
+      - title: Extron MGP 462
+        description: Extron MGP 462
         icon: fa-solid fa-network-wired
-        # url: http://10.103.2.134
+        url: http://10.103.2.113
         # statusCheck: true
 
       - title: Soundstructure
         description: Extron MGP
         icon: fa-solid fa-network-wired
-        # url: http://10.103.2.134
+        url: http://10.103.2.122
         # statusCheck: true
 
   ###################################
@@ -160,21 +211,25 @@ sections:
         icon: fa-solid fa-network-wired
         url: http://10.2.176.213
         # statusCheck: true
+
       - title: Extron 1606
         description: Extron 1606
         icon: fa-solid fa-network-wired
         url: http://10.2.176.231
         # statusCheck: true
+
       - title: Sony Bravia Centre
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
         url: http://10.2.176.60/sony/webui
         # statusCheck: true
+
       - title: Sony Bravia Left
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
         url: http://10.2.176.63/sony/webui
         # statusCheck: true
+
       - title: Sony Bravia Right
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
@@ -194,12 +249,13 @@ sections:
       - title: Sony Bravia Left
         description: Sony Bravia WebUI
         icon: fa-solid fa-network-wired
-        # url: http://10.2.176.213
+        url: http://10.103.2.200/sony/webui
         # statusCheck: true
+
       - title: Sony Bravia Right
         description: Sony Bravia WebUI
         icon: fa-solid fa-network-wired
-        # url: http://10.2.176.213
+        url: http://10.103.2.202/sony/webui
         # statusCheck: true
 
   - name: Meeting Room 3-02
@@ -215,12 +271,13 @@ sections:
       - title: Sony Bravia Left
         description: Sony Bravia WebUI
         icon: fa-solid fa-network-wired
-        # url: http://10.2.176.213
+        url: http://10.103.2.196/sony/webui
         # statusCheck: true
+
       - title: Sony Bravia Right
         description: Sony Bravia WebUI
         icon: fa-solid fa-network-wired
-        # url: http://10.2.176.213
+        url: http://10.103.2.195/sony/webui
         # statusCheck: true
 
   - name: Meeting Room 4-01
@@ -236,12 +293,13 @@ sections:
       - title: Sony Bravia Left
         description: Sony Bravia WebUI
         icon: fa-solid fa-network-wired
-        # url: http://10.2.176.213
+        url: http://10.103.2.198/sony/webui
         # statusCheck: true
+
       - title: Sony Bravia Right
         description: Sony Bravia WebUI
         icon: fa-solid fa-network-wired
-        # url: http://10.2.176.213
+        url: http://10.103.2.199/sony/webui
         # statusCheck: true
 
   ###################################
@@ -260,45 +318,78 @@ sections:
       - title: QSC Core
         description: Study Room QSC Core
         icon: fa-solid fa-network-wired
-        # url: http://10.2.176.213
+        url: http://10.2.224.67
 
       - title: Extron 1804
         description: Extron 1804
         icon: fa-solid fa-network-wired
-        # url: http://10.2.176.213
+        url: http://10.2.224.138
 
       - title: Sony Bravia 1
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        # url: http://10.103.2.204/sony/webui
+        url: http://10.2.224.124/sony/webui
         # statusCheck: true
 
       - title: Sony Bravia 2
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        # url: http://10.103.2.204/sony/webui
+        url: http://10.2.224.125/sony/webui
         # statusCheck: true
 
       - title: Sony Bravia 3
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        # url: http://10.103.2.204/sony/webui
+        url: http://10.2.224.126/sony/webui
         # statusCheck: true
 
       - title: Sony Bravia 4
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        # url: http://10.103.2.204/sony/webui
+        url: http://10.2.224.131/sony/webui
         # statusCheck: true
 
       - title: Sony Bravia 5
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        # url: http://10.103.2.204/sony/webui
+        url: http://10.2.224.132/sony/webui
         # statusCheck: true
 
       - title: Sony Bravia 6
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        # url: http://10.103.2.204/sony/webui
+        url: http://10.2.224.134/sony/webui
+        # statusCheck: true
+
+  ###################################
+  # Mercer
+  ###################################
+  - name: Study Hall - Mercers
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: Soundstructure
+        description: Poly Soundstructure
+        icon: fa-solid fa-network-wired
+        # url: http://10.103.2.155
+        # statusCheck: true
+
+  - name: 104 - Mercers
+    icon: fa-solid fa-building
+    displayData:
+      collapsed: true
+      cols: 1
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: small
+    items:
+      - title: Soundstructure
+        description: Poly Soundstructure
+        icon: fa-solid fa-network-wired
+        url: http://10.103.2.155
         # statusCheck: true

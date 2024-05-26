@@ -232,7 +232,7 @@ sections:
     icon: fa-solid fa-toolbox
     displayData:
       # showForUsers: [owen]
-      sectionLayout: small
+      sectionLayout: grid
       itemCountX: 9
       cols: 4
       itemSize: medium

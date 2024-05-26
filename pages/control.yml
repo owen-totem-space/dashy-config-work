@@ -24,44 +24,51 @@ sections:
         description: Exam Hall Rear Camera
         icon: fa-solid fa-video
         # color: "#63a46c"
-        # url: http://10.103.2.112
+        url: http://10.2.120.65
         # statusCheck: true
+
       - title: Exam Hall Side
         description: Exam Hall Rear Camera
         icon: fa-solid fa-video
         # color: "#63a46c"
         # url: http://10.103.2.112
         # statusCheck: true
+
       - title: College Hall
         description: Exam Hall Rear Camera
         icon: fa-solid fa-video
         # color: "#63a46c"
         url: http://10.2.160.55
         # statusCheck: true
+
       - title: Desmond Left
         description: Desmond Left Camera
         icon: fa-solid fa-video
         # color: "#63a46c"
         url: http://10.103.2.119
         # statusCheck: true
+
       - title: Desmond Right
         description: Desmond Right Camera
         icon: fa-solid fa-video
         # color: "#63a46c"
         url: http://10.103.2.117
         # statusCheck: true
+
       - title: Desmond Overhead
         description: Desmond Overhead Camera
         icon: fa-solid fa-video
         # color: "#63a46c"
         url: http://10.103.2.120
         # statusCheck: true
+
       - title: KPL Front
         description: KPL Front Camera
         icon: fa-solid fa-video
         # color: "#63a46c"
         url: http://10.2.176.222
         # statusCheck: true
+
       - title: KPL Rear
         description: KPL Rear Camera
         icon: fa-solid fa-video
