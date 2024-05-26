@@ -101,10 +101,10 @@ sections:
         icon: favicon
         url: https://community.crestron.com/s/article/id-1000862
 
-      - title: Manually Updating MTR
-        description: Updating the Microsoft Teams® Room (MTR) Application Manually
+      - title: Crestron Remote Client
+        description: Crestron Flex: Crestron Remote Client
         icon: favicon
-        url: https://community.crestron.com/s/article/id-1001137
+        url: https://community.crestron.com/s/article/id-1000725
 
       - title: Relevant Articles & Docs
         description: Microsoft® Articles & Docs Relevant to Crestron® Flex Systems
@@ -155,11 +155,6 @@ sections:
         description: Crestron developer tools
         icon: favicon
         url: https://crestron.com/developer
-
-      - title: Remote Client
-        description: Crestron Remote Client Support Article
-        icon: favicon
-        url: https://community.crestron.com/s/article/id-1000725
 
       - title: Resources
         subItems:
