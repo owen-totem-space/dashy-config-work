@@ -53,7 +53,7 @@ sections:
       - title: KPL Rear
         description: KPL Rear Camera
         icon: fa-solid fa-video
-        url: http://10.2.176.220
+        url: http://10.2.176.229
         id: 7_700_kplrear
   - name: 123 SSG
     icon: fa-solid fa-building
@@ -72,7 +72,7 @@ sections:
       - title: Houston
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
-        url: http://10.103.2.128
+        url: http://10.103.2.112
         id: 1_419_houston
       - title: Cheyne
         description: XPanel
@@ -82,12 +82,12 @@ sections:
       - title: Albert
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
-        url: http://10.2.32.37
+        url: http://10.103.2.125
         id: 3_419_albert
       - title: College Hall
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
-        url: http://10.2.160.42
+        url: http://10.103.2.125
         id: 4_419_collegehall
   - name: 26 York Street
     icon: fa-solid fa-building
@@ -109,11 +109,11 @@ sections:
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.148
         id: 1_1220_muthniklab
-      - title: 502 Boucher Hayes
+      - title: 502 Muthnik Lab
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.92
-        id: 2_1220_boucherhayes
+        id: 2_1220_muthniklab
   - name: 26YS Tutorial Rooms
     icon: fa-solid fa-building
     displayData:

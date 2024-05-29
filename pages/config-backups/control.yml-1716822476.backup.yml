@@ -109,11 +109,11 @@ sections:
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.148
         id: 1_1220_muthniklab
-      - title: 502 Boucher Hayes
+      - title: 502 Muthnik Lab
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.92
-        id: 2_1220_boucherhayes
+        id: 2_1220_muthniklab
   - name: 26YS Tutorial Rooms
     icon: fa-solid fa-building
     displayData:

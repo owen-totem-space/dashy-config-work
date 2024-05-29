@@ -9,53 +9,53 @@ sections:
   - name: Crestron
     icon: fa-solid fa-film
     displayData:
-      cols: 4
+      cols: 2
       sectionLayout: grid
-      itemCountX: 6
+      itemCountX: 5
       itemSize: large
       sortBy: default
       rows: 1
       collapsed: false
       hideForGuests: false
     items:
-      - title: XiO Cloud
-        description: Crestron XiO Cloud
-        icon: fa-solid fa-cloud
-        url: http://rcsi-portal.crestron.io
-        id: 0_848_xiocloud
       - title: Crestron.com
         description: Homepage
         icon: favicon
         url: https://crestron.com
-        id: 1_848_crestroncom
+        id: 0_848_crestroncom
       - title: CTI | Training
         description: Training dashboard
         icon: favicon
         url: https://trainingapps.crestron.com
-        id: 2_848_ctitraining
+        id: 1_848_ctitraining
       - title: Support
         description: Main answer index
         icon: fa-regular fa-life-ring
         url: https://community.crestron.com/
-        id: 3_848_support
+        id: 2_848_support
       - title: Resource Library
         description: Software, firmware, manuals
         icon: favicon
         url: https://crestron.com/Support/Resource-Library
-        id: 4_848_resourcelibrary
-      - title: My Links
-        description: My Github Notes, Crestron OLH Links
-        icon: favicon
-        url: >-
-          https://github.com/owen-totem-space/1.Markdown/blob/main/05-Team/02-Resources/Crestron-OLH-Links.md
-        id: 5_848_mylinks
+        id: 3_848_resourcelibrary
+      - title: Documentation
+        subItems:
+          - title: Crestron Software Documentation
+            description: Online Manuals for Crestron Software
+            icon: favicon
+            url: https://help.crestron.com/Content/Topics/Home.htm
+          - title: Online Help Index
+            description: This is a complete listing of all content on Online Help
+            icon: favicon
+            url: https://docs.crestron.com/en-us/9450/Content/Topics/Home.htm
+        id: 4_848_documentation
   - name: XiO Cloud
     icon: fa-solid fa-cloud
     displayData:
       itemSize: large
       sectionLayout: grid
-      itemCountX: 1
-      cols: 1
+      itemCountX: 2
+      cols: 2
     items:
       - title: XiO Cloud® Service Status
         description: Subscribe to page for email updates
@@ -94,19 +94,19 @@ sections:
     displayData:
       itemSize: large
       sectionLayout: grid
-      itemCountX: 1
-      cols: 1
+      itemCountX: 2
+      cols: 2
     items:
       - title: Manually Updating Firmware
         description: Flex - Manually Updating Firmware Support Answer
         icon: favicon
         url: https://community.crestron.com/s/article/id-1000862
         id: 0_1279_manuallyupdatingfirmware
-      - title: Crestron Remote Client
-        description: Crestron Flex Crestron Remote Client
+      - title: Manually Updating MTR
+        description: Updating the Microsoft Teams® Room (MTR) Application Manually
         icon: favicon
-        url: https://community.crestron.com/s/article/id-1000725
-        id: 1_1279_crestronremoteclient
+        url: https://community.crestron.com/s/article/id-1001137
+        id: 1_1279_manuallyupdatingmtr
       - title: Relevant Articles & Docs
         description: Microsoft® Articles & Docs Relevant to Crestron® Flex Systems
         icon: favicon
@@ -154,6 +154,12 @@ sections:
         icon: favicon
         url: https://crestron.com/developer
         id: 2_1167_devtools
+      - title: Crestron Construct Help
+        description: Crestron Construct Online Help
+        icon: favicon
+        url: >-
+          https://help.crestron.com/construct/Content/Topics/UI%20Editor/Overview.htm
+        id: 3_1167_crestronconstructhelp
       - title: Resources
         subItems:
           - title: r/crestron
@@ -168,46 +174,7 @@ sections:
             description: groups.io/g/gcrestron
             icon: favicon
             url: https://groups.io/g/crestron
-          - title: Crestron Software Documentation
-            description: Online Manuals for Crestron Software
-            icon: favicon
-            url: https://help.crestron.com/Content/Topics/Home.htm
-          - title: Online Help Index
-            description: This is a complete listing of all content on Online Help
-            icon: favicon
-            url: https://docs.crestron.com/en-us/9450/Content/Topics/Home.htm
-          - title: VS Code Web
-            icon: si-visualstudiocode
-            url: https://vscode.dev
-        id: 3_1167_resources
-  - name: Training
-    icon: fa-solid fa-industry
-    displayData:
-      itemSize: small
-      sectionLayout: grid
-      itemCountX: 1
-    items:
-      - title: Extron
-        description: homepage
-        icon: favicon
-        url: https://extron.com
-        id: 0_828_extron
-      - title: Audinate
-        description: Audinate Homepage
-        icon: favicon
-        url: https://www.audinate.com/
-        id: 1_828_audinate
-      - title: QSC
-        description: QSC Training
-        icon: favicon
-        url: https://training.qsc.com/mod/page/view.php?id=560
-        id: 2_828_qsc
+        id: 4_1167_resources
 pages:
-  - name: Control
-    path: control.yml
-  - name: Other Devices
-    path: other-devices.yml
   - name: Crestron
-    path: crestron.yml
-  - name: Utilities
-    path: utilities.yml
+    path: app/public/crestron.yml

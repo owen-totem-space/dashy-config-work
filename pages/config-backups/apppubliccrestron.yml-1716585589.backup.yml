@@ -1,0 +1,263 @@
+pageInfo:
+  title: Dashboard
+  description: Links to awesome places
+  logo: /img/canvaLogo.png
+  navLinks:
+    - title: Home
+      path: /
+sections:
+  - name: Crestron
+    icon: fa-solid fa-film
+    displayData:
+      cols: 2
+      sectionLayout: grid
+      itemCountX: 5
+      itemSize: large
+      sortBy: default
+      rows: 1
+      collapsed: false
+      hideForGuests: false
+    items:
+      - title: Crestron.com
+        description: Homepage
+        icon: favicon
+        url: https://crestron.com
+        id: 0_848_crestroncom
+      - title: CTI | Training
+        description: Training dashboard
+        icon: favicon
+        url: https://trainingapps.crestron.com
+        id: 1_848_ctitraining
+      - title: Support
+        description: Main answer index
+        icon: fa-regular fa-life-ring
+        url: https://community.crestron.com/
+        id: 2_848_support
+      - title: Resource Library
+        description: Software, firmware, manuals
+        icon: favicon
+        url: https://crestron.com/Support/Resource-Library
+        id: 3_848_resourcelibrary
+      - title: Online Help Index
+        description: This is a complete listing of all content on Online Help
+        icon: favicon
+        url: https://docs.crestron.com/en-us/9450/Content/Topics/Home.htm
+        id: 4_848_onlinehelpindex
+      - title: Crestron Connected WebApp
+        description: Search for XiO compatible screens
+        icon: favicon
+        url: https://www.crestron.com/pro/app/Crestron-Connected-Web-App
+        id: 5_848_crestronconnectedwebapp
+      - title: Crestron Software Documentation
+        description: Online Manuals for Crestron Software
+        icon: favicon
+        url: https://help.crestron.com/Content/Topics/Home.htm
+        id: 6_848_crestronsoftwaredocumentation
+  - name: XiO Cloud
+    icon: fa-solid fa-cloud
+    displayData:
+      itemSize: large
+      sectionLayout: grid
+      itemCountX: 2
+      cols: 2
+    items:
+      - title: XiO Cloud® Getting Started
+        description: Getting Started, Tech Tips, Troubleshooting, and Known Issues
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000074
+        id: 0_807_xiocloudgettingstarted
+      - title: XiO Cloud® Service Status
+        description: Subscribe to page for email updates
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-5894
+        id: 1_807_xiocloudservicestatus
+      - title: User Guide
+        description: XiO Cloud® User Guide
+        icon: favicon
+        url: https://docs.crestron.com/en-us/8214/Content/Topics/Home.htm
+        id: 2_807_userguide
+      - title: Third-Party Devices
+        description: XiO Cloud® Certified Third-Party Devices
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1001716
+        id: 3_807_thirdpartydevices
+      - title: Security Support Answer
+        description: XiO Cloud® Security Support Answer
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000076
+        id: 4_807_securitysupportanswer
+      - title: XiO Cloud® Tenant ID
+        description: XiO Cloud® Tenant ID
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1001130
+        id: 5_807_xiocloudtenantid
+      - title: SSO SAML Integration
+        description: XiO Cloud® SSO SAML Integration / Configuration
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000838
+        id: 6_807_ssosamlintegration
+      - title: Room-based Pricing FAQ
+        description: XiO Cloud® Room-based Pricing FAQ
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000717
+        id: 7_807_roombasedpricingfaq
+      - title: License Calculator
+        description: XiO Cloud® License Calculator
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1001165
+        id: 8_807_licensecalculator
+      - title: User Guide
+        description: XiO Cloud® User Guide PDF
+        icon: fa-solid fa-file-pdf
+        url: >-
+          https://www.crestron.com/getmedia/5480b91a-51af-4db5-90b1-99d864c68b12/mg_ug_crestron_xio_cloud_service
+        id: 9_807_userguide
+      - title: Security Guide
+        description: XiO Cloud® Security Reference Guide
+        icon: fa-solid fa-file-pdf
+        url: >-
+          https://www.crestron.com/getmedia/7519fbb5-e58c-46c7-9ab5-549ac58b507b/mg_sr_xio-cloud-security
+        id: 10_807_securityguide
+  - name: Crestron Flex
+    icon: fa-solid fa-cloud
+    displayData:
+      itemSize: large
+      sectionLayout: grid
+      itemCountX: 2
+      cols: 2
+    items:
+      - title: Flex Supplemental Guide
+        description: Instructions for installation of Flex UC Systems
+        icon: fa-solid fa-file-pdf
+        url: >-
+          https://www.crestron.com/getmedia/37077e91-4b19-4c40-b88a-ea45be7e651d/mg_sg_uc-m150-t_uc-b160-t_uc-c160-t
+        id: 0_1279_flexsupplementalguide
+      - title: Manually Updating Firmware
+        description: Flex - Manually Updating Firmware Support Answer
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000862
+        id: 1_1279_manuallyupdatingfirmware
+      - title: Manually Updating MTR
+        description: Updating the Microsoft Teams® Room (MTR) Application Manually
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1001137
+        id: 2_1279_manuallyupdatingmtr
+      - title: Custom Backgrounds
+        description: Loading Custom Backgrounds to a Microsoft Teams® Rooms System
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000743
+        id: 3_1279_custombackgrounds
+      - title: Support for Flex Systems
+        description: Support for Crestron Flex Systems Running Microsoft Teams® Rooms
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1001798
+        id: 4_1279_supportforflexsystems
+      - title: Relevant Articles & Docs
+        description: Microsoft® Articles & Docs Relevant to Crestron® Flex Systems
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000742
+        id: 5_1279_relevantarticlesdocs
+      - title: Huddly Camera Insider
+        description: Huddly Camera Insider
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000358
+        id: 6_1279_huddlycamerainsider
+      - title: Gathering Logs from Flex
+        description: Gathering Logs from Crestron Flex systems Support Answer
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000347
+        id: 7_1279_gatheringlogsfromflex
+      - title: MTR Systems Insider
+        description: Crestron Flex For Microsoft Teams® Rooms (MTR) Systems Insider
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000471
+        id: 8_1279_mtrsystemsinsider
+      - title: Flex UC-PR Product Insider
+        description: Crestron Flex UC-PR Product Insider
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000889
+        id: 9_1279_flexucprproductinsider
+      - title: Flex Third Party Cameras and Soundbars
+        description: UC-ENGINE Integration with Third Party Cameras and Soundbars
+        icon: favicon
+        url: >-
+          https://community.crestron.com/s/article/Crestron-Flex-UC-ENGINE-Integration-with-Third-Party-Cameras-and-Soundbars
+        id: 10_1279_flexthirdpartycamerasandsoundbars
+  - name: Links
+    icon: fa-solid fa-code
+    displayData:
+      itemSize: medium
+      sectionLayout: Grid
+      itemCountX: 2
+    items:
+      - title: Crestron Remote Client
+        description: Remote Client Support Article
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000725
+        id: 0_513_crestronremoteclient
+      - title: 4-Series Guide
+        description: PDF Manual
+        icon: fa-solid fa-file-pdf
+        url: >-
+          https://www.crestron.com/getmedia/7d6b22e7-27f6-4bdc-914b-fbed9e37650e/mg_rg_4-series_control_systems
+        id: 1_513_seriesguide
+      - title: VC-4 Guide
+        description: PDF Manual
+        icon: favicon
+        url: https://docs.crestron.com/en-us/8912/Content/Topics/Home.htm
+        id: 2_513_vcguide
+      - title: Crestron OUI / MAC Address
+        description: Crestron OUI / MAC Address Prefixes
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-1000368
+        id: 3_513_crestronouimacaddress
+      - title: Wireshark Basics for the A/V Professional
+        icon: favicon
+        url: https://community.crestron.com/s/article/id-5562
+        id: 4_513_wiresharkbasicsfortheavprofessional
+  - name: Crestron Dev
+    icon: fa-solid fa-code
+    displayData:
+      itemSize: small
+      sectionLayout: grid
+      itemCountX: 1
+    items:
+      - title: App Market
+        description: Programming modules
+        icon: favicon
+        url: https://applicationmarket.crestron.com
+        id: 0_1167_appmarket
+      - title: Drivers
+        description: Crestron driver web portal
+        icon: favicon
+        url: https://drivers.crestron.io
+        id: 1_1167_drivers
+      - title: Dev Tools
+        description: Crestron developer tools
+        icon: favicon
+        url: https://crestron.com/developer
+        id: 2_1167_devtools
+      - title: Crestron Construct Help
+        description: Crestron Construct Online Help
+        icon: favicon
+        url: >-
+          https://help.crestron.com/construct/Content/Topics/UI%20Editor/Overview.htm
+        id: 3_1167_crestronconstructhelp
+      - title: Resources
+        subItems:
+          - title: r/crestron
+            description: r/crestron
+            icon: si-reddit
+            url: https://reddit.com/r/crestron
+          - title: r/crestronprogramming
+            description: r/crestronprogramming
+            icon: si-reddit
+            url: https://reddit.com/r/crestronprogramming
+          - title: groups.io/g/gcrestron
+            description: groups.io/g/gcrestron
+            icon: favicon
+            url: https://groups.io/g/crestron
+        id: 4_1167_resources
+pages:
+  - name: Crestron
+    path: app/public/crestron.yml

@@ -9,7 +9,7 @@ sections:
   - name: Crestron
     icon: fa-solid fa-film
     displayData:
-      cols: 4
+      cols: 3
       sectionLayout: grid
       itemCountX: 6
       itemSize: large

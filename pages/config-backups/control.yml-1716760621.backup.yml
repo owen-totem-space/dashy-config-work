@@ -5,7 +5,11 @@ pageInfo:
   navLinks:
     - title: Home
       path: /
+
 sections:
+  ###################################
+  # Cameras
+  ###################################
   - name: Cameras
     icon: fa-solid fa-building
     displayData:
@@ -14,81 +18,110 @@ sections:
       sectionLayout: grid
       itemCountX: 8
       itemSize: Medium
-      color: '#63a46c20'
+      color: "#63a46c20"
     items:
       - title: Exam Hall Rear
         description: Exam Hall Rear Camera
         icon: fa-solid fa-video
+        # color: "#63a46c"
         url: http://10.2.120.65
-        id: 0_700_examhallrear
+        # statusCheck: true
+
       - title: Exam Hall Side
         description: Exam Hall Rear Camera
         icon: fa-solid fa-video
-        id: 1_700_examhallside
+        # color: "#63a46c"
+        # url: http://10.103.2.112
+        # statusCheck: true
+
       - title: College Hall
         description: Exam Hall Rear Camera
         icon: fa-solid fa-video
+        # color: "#63a46c"
         url: http://10.2.160.55
-        id: 2_700_collegehall
+        # statusCheck: true
+
       - title: Desmond Left
         description: Desmond Left Camera
         icon: fa-solid fa-video
+        # color: "#63a46c"
         url: http://10.103.2.119
-        id: 3_700_desmondleft
+        # statusCheck: true
+
       - title: Desmond Right
         description: Desmond Right Camera
         icon: fa-solid fa-video
+        # color: "#63a46c"
         url: http://10.103.2.117
-        id: 4_700_desmondright
+        # statusCheck: true
+
       - title: Desmond Overhead
         description: Desmond Overhead Camera
         icon: fa-solid fa-video
+        # color: "#63a46c"
         url: http://10.103.2.120
-        id: 5_700_desmondoverhead
+        # statusCheck: true
+
       - title: KPL Front
         description: KPL Front Camera
         icon: fa-solid fa-video
+        # color: "#63a46c"
         url: http://10.2.176.222
-        id: 6_700_kplfront
+        # statusCheck: true
+
       - title: KPL Rear
         description: KPL Rear Camera
         icon: fa-solid fa-video
+        # color: "#63a46c"
         url: http://10.2.176.220
-        id: 7_700_kplrear
+        # statusCheck: true
+
+  ###################################
+  # 123 SSG
+  ###################################
   - name: 123 SSG
     icon: fa-solid fa-building
     displayData:
       cols: 3
+      # rows: 2
       sectionLayout: grid
       itemCountX: 5
       itemSize: large
-      color: '#bd939120'
+      color: "#bd939120"
     items:
       - title: O'Flanagan
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.133
-        id: 0_419_oflanagan
+        # statusCheck: true
+
       - title: Houston
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
-        url: http://10.103.2.128
-        id: 1_419_houston
+        url: http://10.103.2.112
+        # statusCheck: true
+
       - title: Cheyne
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.125
-        id: 2_419_cheyne
+        # statusCheck: true
+
       - title: Albert
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
-        url: http://10.2.32.37
-        id: 3_419_albert
+        url: http://10.103.2.125
+        # statusCheck: true
+
       - title: College Hall
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
-        url: http://10.2.160.42
-        id: 4_419_collegehall
+        url: http://10.103.2.125
+        # statusCheck: true
+
+  ###################################
+  # 26 York Street
+  ###################################
   - name: 26 York Street
     icon: fa-solid fa-building
     displayData:
@@ -97,98 +130,94 @@ sections:
       sectionLayout: grid
       itemCountX: 1
       itemSize: large
-      color: '#63458a20'
+      color: "#63458a20"
     items:
       - title: Desmond
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.112
-        id: 0_1220_desmond
+        # statusCheck: true
       - title: 302 Muthnik Lab
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.148
-        id: 1_1220_muthniklab
-      - title: 502 Boucher Hayes
+        # statusCheck: true
+      - title: 502 Muthnik Lab
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.92
-        id: 2_1220_boucherhayes
+        # statusCheck: true
+
+  ###################################
+  # 26YS Tutorial Rooms
+  ###################################
   - name: 26YS Tutorial Rooms
     icon: fa-solid fa-building
     displayData:
       cols: 3
+      # rows: 1
       sectionLayout: grid
       itemCountX: 6
       itemSize: large
-      color: '#550c1820'
+      color: "#550c1820"
     items:
       - title: TR 321
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.67
-        id: 0_1720_tr
+        # statusCheck: true
       - title: TR 322
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.60
-        id: 1_1720_tr
+        # statusCheck: true
       - title: TR 323
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.57
-        id: 2_1720_tr
+        # statusCheck: true
       - title: TR 324
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.54
-        id: 3_1720_tr
+        # statusCheck: true
       - title: TR 325
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.51
-        id: 4_1720_tr
+        # statusCheck: true
       - title: TR 326
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.48
-        id: 5_1720_tr
+        # statusCheck: true
       - title: TR 421
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.68
-        id: 6_1720_tr
+        # statusCheck: true
       - title: TR 422
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.45
-        id: 7_1720_tr
+        # statusCheck: true
       - title: TR 423
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.42
-        id: 8_1720_tr
+        # statusCheck: true
       - title: TR 424
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.39
-        id: 9_1720_tr
+        # statusCheck: true
       - title: TR 425
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.4.45
-        id: 10_1720_tr
+        # statusCheck: true
       - title: TR 426
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.32
-        id: 11_1720_tr
-pages:
-  - name: Control
-    path: control.yml
-  - name: Other Devices
-    path: other-devices.yml
-  - name: Crestron
-    path: crestron.yml
-  - name: Utilities
-    path: utilities.yml
+        # statusCheck: true

@@ -14,7 +14,7 @@ sections:
       itemCountX: 6
       itemSize: large
       sortBy: default
-      rows: 1
+      rows: 2
       collapsed: false
       hideForGuests: false
     items:
