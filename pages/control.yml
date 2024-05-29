@@ -11,8 +11,8 @@ sections:
     displayData:
       cols: 4
       rows: 2
-      sectionLayout: grid
-      itemCountX: 8
+      # sectionLayout: grid
+      # itemCountX: 8
       itemSize: Medium
       color: '#63a46c20'
     items:
@@ -54,6 +54,7 @@ sections:
         description: KPL Rear Camera
         icon: fa-solid fa-video
         url: http://10.2.176.220
+<<<<<<< HEAD
         id: 7_700_kplrear
   - name: 123 SSG
     icon: fa-solid fa-building
@@ -120,6 +121,20 @@ sections:
       cols: 3
       sectionLayout: grid
       itemCountX: 6
+=======
+        # statusCheck: true
+
+  ###################################
+  # 26YS Tutorial Rooms
+  ###################################
+  - name: 26YS Tutorial Rooms
+    icon: fa-solid fa-building
+    displayData:
+      cols: 4
+      rows: 1
+      # sectionLayout: grid
+      # itemCountX: 6
+>>>>>>> 36702d75f149f4788e18904c0040741654ab8645
       itemSize: large
       color: '#550c1820'
     items:
@@ -182,6 +197,7 @@ sections:
         description: XPanel
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.32
+<<<<<<< HEAD
         id: 11_1720_tr
 pages:
   - name: Control
@@ -192,3 +208,78 @@ pages:
     path: crestron.yml
   - name: Utilities
     path: utilities.yml
+=======
+        # statusCheck: true
+
+  ###################################
+  # 123 SSG
+  ###################################
+  - name: 123 SSG
+    icon: fa-solid fa-building
+    displayData:
+      cols: 3
+      # rows: 2
+      # sectionLayout: grid
+      # itemCountX: 5
+      itemSize: large
+      color: "#bd939120"
+    items:
+      - title: O'Flanagan
+        description: XPanel
+        icon: fa-solid fa-tablet-screen-button
+        url: http://10.103.2.133
+        # statusCheck: true
+
+      - title: Houston
+        description: XPanel
+        icon: fa-solid fa-tablet-screen-button
+        url: http://10.103.2.112
+        # statusCheck: true
+
+      - title: Cheyne
+        description: XPanel
+        icon: fa-solid fa-tablet-screen-button
+        url: http://10.103.2.125
+        # statusCheck: true
+
+      - title: Albert
+        description: XPanel
+        icon: fa-solid fa-tablet-screen-button
+        url: http://10.103.2.125
+        # statusCheck: true
+
+      - title: College Hall
+        description: XPanel
+        icon: fa-solid fa-tablet-screen-button
+        url: http://10.103.2.125
+        # statusCheck: true
+
+  ###################################
+  # 26 York Street
+  ###################################
+  - name: 26 York Street
+    icon: fa-solid fa-building
+    displayData:
+      cols: 1
+      rows: 2
+      sectionLayout: grid
+      itemCountX: 1
+      itemSize: large
+      color: "#63458a20"
+    items:
+      - title: Desmond
+        description: XPanel
+        icon: fa-solid fa-tablet-screen-button
+        url: http://10.103.2.112
+        # statusCheck: true
+      - title: 302 Muthnik Lab
+        description: XPanel
+        icon: fa-solid fa-tablet-screen-button
+        url: http://10.103.2.148
+        # statusCheck: true
+      - title: 502 Muthnik Lab
+        description: XPanel
+        icon: fa-solid fa-tablet-screen-button
+        url: http://10.103.2.92
+        # statusCheck: true
+>>>>>>> 36702d75f149f4788e18904c0040741654ab8645

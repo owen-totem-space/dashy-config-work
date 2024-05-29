@@ -137,5 +137,11 @@ html[data-theme="dark-glow"] {
     .home .item-group-container {
       --col-count: 4;
     }
+    // .collapsable.col-3,
+    .collapsable.col-4,
+    .collapsable.col-5,
+    .collapsable.col-6 {
+      grid-column-start: span 4;
+    }
   }
 }
