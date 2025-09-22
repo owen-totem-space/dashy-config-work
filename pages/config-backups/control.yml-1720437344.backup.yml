@@ -10,29 +10,25 @@ sections:
     icon: fa-solid fa-building
     displayData:
       cols: 4
-      itemCountX: 6
-      sectionLayout: grid
       rows: 2
-      itemSize: medium
-      color: '#63a46c20'
-      sortBy: default
-      collapsed: false
-      hideForGuests: false
+      # sectionLayout: grid
+      # itemCountX: 8
+      itemSize: Medium
+      color: "#63a46c20"
     items:
       - title: Exam Hall Rear
         description: Exam Hall Rear Camera
         icon: fa-solid fa-video
-        url: http://10.2.120.72
+        url: http://10.2.120.65
         id: 0_700_examhallrear
       - title: Exam Hall Side
         description: Exam Hall Rear Camera
         icon: fa-solid fa-video
-        url: http://10.2.120.67
         id: 1_700_examhallside
       - title: College Hall
         description: Exam Hall Rear Camera
         icon: fa-solid fa-video
-        url: http://10.2.160.54
+        url: http://10.2.160.55
         id: 2_700_collegehall
       - title: Desmond Left
         description: Desmond Left Camera
@@ -59,34 +55,7 @@ sections:
         icon: fa-solid fa-video
         url: http://10.2.176.220
         id: 7_700_kplrear
-      - title: Radiology Front
-        icon: fa-solid fa-video
-        url: http://10.103.2.225
-        id: 8_700_radiologyfront
-      - title: Radiology Rear
-        icon: fa-solid fa-video
-        url: http://10.103.2.226
-        id: 9_700_radiologyrear
-      - title: Carmichael
-        icon: fa-solid fa-video
-        url: http://10.36.0.122
-        id: 10_700_carmichael
-      - title: PBS Lab - Front Cam
-        icon: fa-solid fa-video
-        url: http://10.2.80.147
-        id: 11_700_pbslabfrontcam
-      - title: PBS Lab - Middle Cam
-        icon: fa-solid fa-video
-        url: http://10.2.80.126
-        id: 12_700_pbslabmiddlecam
-      - title: PBS Lab - Left Cam
-        icon: fa-solid fa-video
-        url: http://10.2.80.144
-        id: 13_700_pbslableftcam
-      - title: PBS Lab - Right Cam
-        icon: fa-solid fa-video
-        url: http://10.2.80.136
-        id: 14_700_pbslabrightcam
+
   - name: 26YS Tutorial Rooms
     icon: fa-solid fa-building
     displayData:
@@ -94,7 +63,7 @@ sections:
       sectionLayout: grid
       itemCountX: 6
       itemSize: large
-      color: '#550c1820'
+      color: "#550c1820"
     items:
       - title: TR 321
         description: XPanel
@@ -156,6 +125,7 @@ sections:
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.32
         id: 11_1720_tr
+
   - name: 123 SSG
     icon: fa-solid fa-building
     displayData:
@@ -163,7 +133,7 @@ sections:
       sectionLayout: grid
       itemCountX: 5
       itemSize: large
-      color: '#bd939120'
+      color: "#bd939120"
     items:
       - title: O'Flanagan
         description: XPanel
@@ -198,7 +168,7 @@ sections:
       sectionLayout: grid
       itemCountX: 1
       itemSize: large
-      color: '#63458a20'
+      color: "#63458a20"
     items:
       - title: Desmond
         description: XPanel
@@ -215,6 +185,7 @@ sections:
         icon: fa-solid fa-tablet-screen-button
         url: http://10.103.2.92
         id: 2_1220_boucherhayes
+
 pages:
   - name: Control
     path: control.yml

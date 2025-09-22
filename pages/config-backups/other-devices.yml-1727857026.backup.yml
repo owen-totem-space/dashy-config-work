@@ -22,28 +22,20 @@ sections:
         url: http://10.103.2.203
         id: 0_445_qsysdesmond
       - title: Q-Sys KPL
-        description: Q-Sys Core KPL
+        description: Q-Sys Core 110f KPL
         icon: fa fa-play
-        url: http://10.2.176.144
+        url: http://10.2.176.213
         id: 1_445_qsyskpl
-      - title: Q-Sys Ardilaun
-        description: Q-Sys Core Ardilaun Study Room
+      - title: Q-Sys Block-B
+        description: Q-Sys Core 110f Block-B Study Room
         icon: fa fa-play
-        url: http://10.103.2.207
-        id: 2_445_qsysardilaun
+        url: http://10.103.2.218
+        id: 2_445_qsysblockb
       - title: Q-Sys Radiology
         description: QSC Core 110f
         icon: fa fa-play
-        url: http://10.103.2.208
+        url: http://10.103.2.230
         id: 3_445_qsysradiology
-      - title: Q-Sys Mercers 109
-        icon: fa fa-play
-        url: http://10.2.72.48
-        id: 4_445_qsysmercers
-      - title: Q-Sys CERC Harvard
-        icon: fa fa-play
-        url: http://10.42.1.72
-        id: 5_445_qsyscercharvard
   - name: O'Flanagan
     icon: fa-solid fa-building
     displayData:
@@ -393,20 +385,20 @@ sections:
         id: 0_1432_shuremxa
       - title: Telycam Front
         icon: fa fa-camera
-        url: http://10.2.176.193
+        url: http://10.103.2.228
         id: 1_1432_telycamfront
       - title: Telycam Rear
         icon: fa fa-camera
-        url: http://10.2.176.205
+        url: http://10.103.2.227
         id: 2_1432_telycamrear
       - title: Q-Sys Core
         description: Q-Sys Core 110f
         icon: favicon
-        url: http://10.2.176.190
+        url: http://10.103.2.130
         id: 3_1432_qsyscore
       - title: Sony Bravia
         icon: favicon
-        url: http://10.2.176.181/sony/webui
+        url: http://10.103.2.226
         id: 4_1432_sonybravia
 pages:
   - name: Control

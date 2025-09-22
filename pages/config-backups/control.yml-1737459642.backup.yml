@@ -61,11 +61,11 @@ sections:
         id: 7_700_kplrear
       - title: Radiology Front
         icon: fa-solid fa-video
-        url: http://10.103.2.225
+        url: http://10.2.176.193
         id: 8_700_radiologyfront
       - title: Radiology Rear
         icon: fa-solid fa-video
-        url: http://10.103.2.226
+        url: http://10.2.176.205
         id: 9_700_radiologyrear
       - title: Carmichael
         icon: fa-solid fa-video

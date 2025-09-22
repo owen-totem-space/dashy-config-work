@@ -47,7 +47,7 @@ sections:
         description: My Github Notes, Crestron OLH Links
         icon: favicon
         url: >-
-          https://github.com/owen-totem-space/1.Markdown/blob/main/03-Resources/FAQ/Crestron-OLH-Links.md
+          https://github.com/owen-totem-space/1.Markdown/blob/main/05-Team/02-Resources/Crestron-OLH-Links.md
         id: 5_848_mylinks
   - name: XiO Cloud
     icon: fa-solid fa-cloud

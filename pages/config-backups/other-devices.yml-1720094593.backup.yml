@@ -6,44 +6,6 @@ pageInfo:
     - title: Home
       path: /
 sections:
-  - name: Q-Sys
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 4
-      collapsed: false
-      itemSize: large
-      itemCountX: 4
-      hideForGuests: false
-    items:
-      - title: Q-Sys Desmond
-        description: Q-Sys Core 110f Desmond
-        icon: fa fa-play
-        url: http://10.103.2.203
-        id: 0_445_qsysdesmond
-      - title: Q-Sys KPL
-        description: Q-Sys Core KPL
-        icon: fa fa-play
-        url: http://10.2.176.144
-        id: 1_445_qsyskpl
-      - title: Q-Sys Ardilaun
-        description: Q-Sys Core Ardilaun Study Room
-        icon: fa fa-play
-        url: http://10.103.2.207
-        id: 2_445_qsysardilaun
-      - title: Q-Sys Radiology
-        description: QSC Core 110f
-        icon: fa fa-play
-        url: http://10.103.2.208
-        id: 3_445_qsysradiology
-      - title: Q-Sys Mercers 109
-        icon: fa fa-play
-        url: http://10.2.72.48
-        id: 4_445_qsysmercers
-      - title: Q-Sys CERC Harvard
-        icon: fa fa-play
-        url: http://10.42.1.72
-        id: 5_445_qsyscercharvard
   - name: O'Flanagan
     icon: fa-solid fa-building
     displayData:
@@ -203,11 +165,11 @@ sections:
         icon: fa-solid fa-network-wired
         url: http://10.103.2.113
         id: 0_714_extronmgp
-      - title: Q-Sys Core 110f
-        description: Q-Sys Core 110f
+      - title: Soundstructure
+        description: Extron MGP
         icon: fa-solid fa-network-wired
-        url: http://10.103.2.203
-        id: 1_714_qsyscoref
+        url: http://10.103.2.122
+        id: 1_714_soundstructure
   - name: Kiran Pathak Lab
     icon: fa-solid fa-building
     displayData:
@@ -311,42 +273,42 @@ sections:
       - title: QSC Core
         description: Study Room QSC Core
         icon: fa-solid fa-network-wired
-        url: http://10.103.2.218
+        url: http://10.2.224.67
         id: 0_1680_qsccore
       - title: Extron 1804
         description: Extron 1804
         icon: fa-solid fa-network-wired
-        url: http://10.103.2.219
+        url: http://10.2.224.138
         id: 1_1680_extron
       - title: Sony Bravia 1
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        url: http://10.103.2.210/sony/webui
+        url: http://10.2.224.124/sony/webui
         id: 2_1680_sonybravia
       - title: Sony Bravia 2
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        url: http://10.103.2.211/sony/webui
+        url: http://10.2.224.125/sony/webui
         id: 3_1680_sonybravia
       - title: Sony Bravia 3
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        url: http://10.103.2.213/sony/webui
+        url: http://10.2.224.126/sony/webui
         id: 4_1680_sonybravia
       - title: Sony Bravia 4
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        url: http://10.103.2.214/sony/webui
+        url: http://10.2.224.131/sony/webui
         id: 5_1680_sonybravia
       - title: Sony Bravia 5
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        url: http://10.103.2.215/sony/webui
+        url: http://10.2.224.132/sony/webui
         id: 6_1680_sonybravia
       - title: Sony Bravia 6
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        url: http://10.103.2.212/sony/webui
+        url: http://10.2.224.134/sony/webui
         id: 7_1680_sonybravia
   - name: Study Hall - Mercers
     icon: fa-solid fa-building
@@ -375,39 +337,23 @@ sections:
         icon: fa-solid fa-network-wired
         url: http://10.103.2.155
         id: 0_979_soundstructure
-  - name: Radiology - SSG121
-    icon: fa fa-building
+  - name: Q-Sys
     displayData:
       sortBy: default
       rows: 1
-      cols: 1
-      collapsed: true
-      itemCountX: 1
-      itemSize: small
-      sectionLayout: grid
+      cols: 4
+      collapsed: false
+      hideForGuests: false
     items:
-      - title: Shure MXA910
-        description: Shure MXA910 Ceiling Tile
+      - title: Q-Sys Desmond
+        description: Q-Sys Core 110f Desmond
         icon: favicon
-        url: http://10.103.2.233
-        id: 0_1432_shuremxa
-      - title: Telycam Front
-        icon: fa fa-camera
-        url: http://10.2.176.193
-        id: 1_1432_telycamfront
-      - title: Telycam Rear
-        icon: fa fa-camera
-        url: http://10.2.176.205
-        id: 2_1432_telycamrear
-      - title: Q-Sys Core
-        description: Q-Sys Core 110f
-        icon: favicon
-        url: http://10.2.176.190
-        id: 3_1432_qsyscore
-      - title: Sony Bravia
-        icon: favicon
-        url: http://10.2.176.181/sony/webui
-        id: 4_1432_sonybravia
+        url: http://10.103.2.201
+        id: 0_445_qsysdesmond
+      - title: Q-Sys KPL
+        description: Q-Sys Core 110f KPL
+        url: http://
+        id: 1_445_qsyskpl
 pages:
   - name: Control
     path: control.yml

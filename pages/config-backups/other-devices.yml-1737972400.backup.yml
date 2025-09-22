@@ -34,7 +34,7 @@ sections:
       - title: Q-Sys Radiology
         description: QSC Core 110f
         icon: fa fa-play
-        url: http://10.103.2.208
+        url: http://10.2.176.128
         id: 3_445_qsysradiology
       - title: Q-Sys Mercers 109
         icon: fa fa-play

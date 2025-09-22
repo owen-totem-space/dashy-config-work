@@ -10,14 +10,9 @@ sections:
     icon: fa-solid fa-building
     displayData:
       cols: 4
-      itemCountX: 6
-      sectionLayout: grid
       rows: 2
-      itemSize: medium
+      itemSize: Medium
       color: '#63a46c20'
-      sortBy: default
-      collapsed: false
-      hideForGuests: false
     items:
       - title: Exam Hall Rear
         description: Exam Hall Rear Camera
@@ -59,34 +54,6 @@ sections:
         icon: fa-solid fa-video
         url: http://10.2.176.220
         id: 7_700_kplrear
-      - title: Radiology Front
-        icon: fa-solid fa-video
-        url: http://10.103.2.225
-        id: 8_700_radiologyfront
-      - title: Radiology Rear
-        icon: fa-solid fa-video
-        url: http://10.103.2.226
-        id: 9_700_radiologyrear
-      - title: Carmichael
-        icon: fa-solid fa-video
-        url: http://10.36.0.122
-        id: 10_700_carmichael
-      - title: PBS Lab - Front Cam
-        icon: fa-solid fa-video
-        url: http://10.2.80.147
-        id: 11_700_pbslabfrontcam
-      - title: PBS Lab - Middle Cam
-        icon: fa-solid fa-video
-        url: http://10.2.80.126
-        id: 12_700_pbslabmiddlecam
-      - title: PBS Lab - Left Cam
-        icon: fa-solid fa-video
-        url: http://10.2.80.144
-        id: 13_700_pbslableftcam
-      - title: PBS Lab - Right Cam
-        icon: fa-solid fa-video
-        url: http://10.2.80.136
-        id: 14_700_pbslabrightcam
   - name: 26YS Tutorial Rooms
     icon: fa-solid fa-building
     displayData:

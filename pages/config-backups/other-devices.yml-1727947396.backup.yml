@@ -22,9 +22,9 @@ sections:
         url: http://10.103.2.203
         id: 0_445_qsysdesmond
       - title: Q-Sys KPL
-        description: Q-Sys Core KPL
+        description: Q-Sys Core 110f KPL
         icon: fa fa-play
-        url: http://10.2.176.144
+        url: http://10.2.176.213
         id: 1_445_qsyskpl
       - title: Q-Sys Ardilaun
         description: Q-Sys Core Ardilaun Study Room
@@ -34,7 +34,7 @@ sections:
       - title: Q-Sys Radiology
         description: QSC Core 110f
         icon: fa fa-play
-        url: http://10.103.2.208
+        url: http://10.2.176.128
         id: 3_445_qsysradiology
       - title: Q-Sys Mercers 109
         icon: fa fa-play

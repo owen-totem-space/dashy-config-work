@@ -5,45 +5,11 @@ pageInfo:
   navLinks:
     - title: Home
       path: /
+
 sections:
-  - name: Q-Sys
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 4
-      collapsed: false
-      itemSize: large
-      itemCountX: 4
-      hideForGuests: false
-    items:
-      - title: Q-Sys Desmond
-        description: Q-Sys Core 110f Desmond
-        icon: fa fa-play
-        url: http://10.103.2.203
-        id: 0_445_qsysdesmond
-      - title: Q-Sys KPL
-        description: Q-Sys Core KPL
-        icon: fa fa-play
-        url: http://10.2.176.144
-        id: 1_445_qsyskpl
-      - title: Q-Sys Ardilaun
-        description: Q-Sys Core Ardilaun Study Room
-        icon: fa fa-play
-        url: http://10.103.2.207
-        id: 2_445_qsysardilaun
-      - title: Q-Sys Radiology
-        description: QSC Core 110f
-        icon: fa fa-play
-        url: http://10.103.2.208
-        id: 3_445_qsysradiology
-      - title: Q-Sys Mercers 109
-        icon: fa fa-play
-        url: http://10.2.72.48
-        id: 4_445_qsysmercers
-      - title: Q-Sys CERC Harvard
-        icon: fa fa-play
-        url: http://10.42.1.72
-        id: 5_445_qsyscercharvard
+  ###################################
+  # 123 SSG
+  ###################################
   - name: O'Flanagan
     icon: fa-solid fa-building
     displayData:
@@ -56,12 +22,15 @@ sections:
       - title: Extron 1606
         description: Extron 1606
         icon: fa-solid fa-network-wired
-        id: 0_910_extron
+        # url: http://
+        # # statusCheck: true
+
       - title: Autoswitcher
         description: Crestron HD-MD-400-CE
         icon: fa-solid fa-network-wired
         url: http://10.103.2.134
-        id: 1_910_autoswitcher
+        # statusCheck: true
+
   - name: Houston
     icon: fa-solid fa-building
     displayData:
@@ -75,7 +44,8 @@ sections:
         description: Crestron HD-MD-400-CE
         icon: fa-solid fa-network-wired
         url: http://10.103.2.130
-        id: 0_752_autoswitcher
+        # statusCheck: true
+
   - name: Cheyne
     icon: fa-solid fa-building
     displayData:
@@ -89,7 +59,8 @@ sections:
         description: Crestron HD-MD-400-CE
         icon: fa-solid fa-network-wired
         url: http://10.103.2.127
-        id: 0_604_autoswitcher
+        # statusCheck: true
+
   - name: College Hall
     icon: fa-solid fa-building
     displayData:
@@ -103,7 +74,8 @@ sections:
         description: Crestron HD-MD-400-CE
         icon: fa-solid fa-network-wired
         url: http://10.2.160.45
-        id: 0_1116_autoswitcher
+        # # statusCheck: true
+
   - name: Physio Movement
     icon: fa-solid fa-building
     displayData:
@@ -117,7 +89,8 @@ sections:
         description: Crestron HD-MD-400-CE
         icon: fa-solid fa-network-wired
         url: http://10.103.2.166
-        id: 0_1511_autoswitcher
+        # statusCheck: true
+
   - name: PBS Meeting - 3rd Floor
     icon: fa-solid fa-building
     displayData:
@@ -130,8 +103,9 @@ sections:
       - title: Autoswitcher
         description: Crestron HD-MD-400-CE
         icon: fa-solid fa-network-wired
-        url: http://10.2.216.61
-        id: 0_1894_autoswitcher
+        url: http://10.2.216.90
+        # statusCheck: true
+
   - name: Mary Emily Dowson Room
     icon: fa-solid fa-building
     displayData:
@@ -145,12 +119,14 @@ sections:
         description: Sony Bravia WebUI
         icon: fa-solid fa-network-wired
         url: http://10.2.128.54/sony/webui
-        id: 0_2064_sonybravialeft
+        # statusCheck: true
+
       - title: Sony Bravia Right
         description: Sony Bravia WebUI
         icon: fa-solid fa-network-wired
         url: http://10.2.128.58/sony/webui
-        id: 1_2064_sonybraviaright
+        # statusCheck: true
+
   - name: TR 3
     icon: fa-solid fa-building
     displayData:
@@ -164,7 +140,11 @@ sections:
         description: Poly Soundstructure
         icon: fa-solid fa-network-wired
         url: http://10.103.2.140
-        id: 0_249_soundstructure
+        # statusCheck: true
+
+  ###################################
+  # 26 York Street
+  ###################################
   - name: Amphitheatre - Floor 2
     icon: fa-solid fa-building
     displayData:
@@ -178,17 +158,20 @@ sections:
         description: Extron 1606 Switcher
         icon: fa-solid fa-network-wired
         url: http://10.103.2.178
-        id: 0_1949_extron
+        # statusCheck: true
+
       - title: Extron SMP 351
         description: Extron SMP 351 recorder
         icon: fa-solid fa-network-wired
         url: http://10.103.2.105
-        id: 1_1949_extronsmp
+        # statusCheck: true
+
       - title: Sony Bravia
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
         url: http://10.103.2.204/sony/webui
-        id: 2_1949_sonybravia
+        # statusCheck: true
+
   - name: Desmond
     icon: fa-solid fa-building
     displayData:
@@ -202,17 +185,23 @@ sections:
         description: Extron MGP 462
         icon: fa-solid fa-network-wired
         url: http://10.103.2.113
-        id: 0_714_extronmgp
-      - title: Q-Sys Core 110f
-        description: Q-Sys Core 110f
+        # statusCheck: true
+
+      - title: Soundstructure
+        description: Extron MGP
         icon: fa-solid fa-network-wired
-        url: http://10.103.2.203
-        id: 1_714_qsyscoref
+        url: http://10.103.2.122
+        # statusCheck: true
+
+  ###################################
+  # 121 SSG
+  ###################################
   - name: Kiran Pathak Lab
     icon: fa-solid fa-building
     displayData:
       collapsed: true
       cols: 1
+      # rows: 2
       sectionLayout: grid
       itemCountX: 1
       itemSize: small
@@ -221,32 +210,38 @@ sections:
         description: KPL QSC Core
         icon: fa-solid fa-network-wired
         url: http://10.2.176.213
-        id: 0_1437_qsccore
+        # statusCheck: true
+
       - title: Extron 1606
         description: Extron 1606
         icon: fa-solid fa-network-wired
         url: http://10.2.176.231
-        id: 1_1437_extron
+        # statusCheck: true
+
       - title: Sony Bravia Centre
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
         url: http://10.2.176.60/sony/webui
-        id: 2_1437_sonybraviacentre
+        # statusCheck: true
+
       - title: Sony Bravia Left
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
         url: http://10.2.176.63/sony/webui
-        id: 3_1437_sonybravialeft
+        # statusCheck: true
+
       - title: Sony Bravia Right
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
         url: http://10.2.176.223/sony/webui
-        id: 4_1437_sonybraviaright
+        # statusCheck: true
+
   - name: Meeting Room 1-01
     icon: fa-solid fa-building
     displayData:
       collapsed: true
       cols: 1
+      # rows: 2
       sectionLayout: grid
       itemCountX: 1
       itemSize: small
@@ -255,17 +250,20 @@ sections:
         description: Sony Bravia WebUI
         icon: fa-solid fa-network-wired
         url: http://10.103.2.200/sony/webui
-        id: 0_1381_sonybravialeft
+        # statusCheck: true
+
       - title: Sony Bravia Right
         description: Sony Bravia WebUI
         icon: fa-solid fa-network-wired
         url: http://10.103.2.202/sony/webui
-        id: 1_1381_sonybraviaright
+        # statusCheck: true
+
   - name: Meeting Room 3-02
     icon: fa-solid fa-building
     displayData:
       collapsed: true
       cols: 1
+      # rows: 2
       sectionLayout: grid
       itemCountX: 1
       itemSize: small
@@ -274,17 +272,20 @@ sections:
         description: Sony Bravia WebUI
         icon: fa-solid fa-network-wired
         url: http://10.103.2.196/sony/webui
-        id: 0_1384_sonybravialeft
+        # statusCheck: true
+
       - title: Sony Bravia Right
         description: Sony Bravia WebUI
         icon: fa-solid fa-network-wired
         url: http://10.103.2.195/sony/webui
-        id: 1_1384_sonybraviaright
+        # statusCheck: true
+
   - name: Meeting Room 4-01
     icon: fa-solid fa-building
     displayData:
       collapsed: true
       cols: 1
+      # rows: 2
       sectionLayout: grid
       itemCountX: 1
       itemSize: small
@@ -293,17 +294,23 @@ sections:
         description: Sony Bravia WebUI
         icon: fa-solid fa-network-wired
         url: http://10.103.2.198/sony/webui
-        id: 0_1384_sonybravialeft
+        # statusCheck: true
+
       - title: Sony Bravia Right
         description: Sony Bravia WebUI
         icon: fa-solid fa-network-wired
         url: http://10.103.2.199/sony/webui
-        id: 1_1384_sonybraviaright
+        # statusCheck: true
+
+  ###################################
+  # Ardilaun - Block B
+  ###################################
   - name: Study Room - Block B
     icon: fa-solid fa-building
     displayData:
       collapsed: true
       cols: 1
+      # rows: 2
       sectionLayout: grid
       itemCountX: 1
       itemSize: small
@@ -311,43 +318,52 @@ sections:
       - title: QSC Core
         description: Study Room QSC Core
         icon: fa-solid fa-network-wired
-        url: http://10.103.2.218
-        id: 0_1680_qsccore
+        url: http://10.2.224.67
+
       - title: Extron 1804
         description: Extron 1804
         icon: fa-solid fa-network-wired
-        url: http://10.103.2.219
-        id: 1_1680_extron
+        url: http://10.2.224.138
+
       - title: Sony Bravia 1
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        url: http://10.103.2.210/sony/webui
-        id: 2_1680_sonybravia
+        url: http://10.2.224.124/sony/webui
+        # statusCheck: true
+
       - title: Sony Bravia 2
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        url: http://10.103.2.211/sony/webui
-        id: 3_1680_sonybravia
+        url: http://10.2.224.125/sony/webui
+        # statusCheck: true
+
       - title: Sony Bravia 3
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        url: http://10.103.2.213/sony/webui
-        id: 4_1680_sonybravia
+        url: http://10.2.224.126/sony/webui
+        # statusCheck: true
+
       - title: Sony Bravia 4
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        url: http://10.103.2.214/sony/webui
-        id: 5_1680_sonybravia
+        url: http://10.2.224.131/sony/webui
+        # statusCheck: true
+
       - title: Sony Bravia 5
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        url: http://10.103.2.215/sony/webui
-        id: 6_1680_sonybravia
+        url: http://10.2.224.132/sony/webui
+        # statusCheck: true
+
       - title: Sony Bravia 6
         description: Sony Bravia WebUI
         icon: fa-solid fa-tv
-        url: http://10.103.2.212/sony/webui
-        id: 7_1680_sonybravia
+        url: http://10.2.224.134/sony/webui
+        # statusCheck: true
+
+  ###################################
+  # Mercer
+  ###################################
   - name: Study Hall - Mercers
     icon: fa-solid fa-building
     displayData:
@@ -360,7 +376,9 @@ sections:
       - title: Soundstructure
         description: Poly Soundstructure
         icon: fa-solid fa-network-wired
-        id: 0_1784_soundstructure
+        # url: http://10.103.2.155
+        # statusCheck: true
+
   - name: 104 - Mercers
     icon: fa-solid fa-building
     displayData:
@@ -374,46 +392,4 @@ sections:
         description: Poly Soundstructure
         icon: fa-solid fa-network-wired
         url: http://10.103.2.155
-        id: 0_979_soundstructure
-  - name: Radiology - SSG121
-    icon: fa fa-building
-    displayData:
-      sortBy: default
-      rows: 1
-      cols: 1
-      collapsed: true
-      itemCountX: 1
-      itemSize: small
-      sectionLayout: grid
-    items:
-      - title: Shure MXA910
-        description: Shure MXA910 Ceiling Tile
-        icon: favicon
-        url: http://10.103.2.233
-        id: 0_1432_shuremxa
-      - title: Telycam Front
-        icon: fa fa-camera
-        url: http://10.2.176.193
-        id: 1_1432_telycamfront
-      - title: Telycam Rear
-        icon: fa fa-camera
-        url: http://10.2.176.205
-        id: 2_1432_telycamrear
-      - title: Q-Sys Core
-        description: Q-Sys Core 110f
-        icon: favicon
-        url: http://10.2.176.190
-        id: 3_1432_qsyscore
-      - title: Sony Bravia
-        icon: favicon
-        url: http://10.2.176.181/sony/webui
-        id: 4_1432_sonybravia
-pages:
-  - name: Control
-    path: control.yml
-  - name: Other Devices
-    path: other-devices.yml
-  - name: Crestron
-    path: crestron.yml
-  - name: Utilities
-    path: utilities.yml
+        # statusCheck: true

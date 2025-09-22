@@ -121,7 +121,7 @@ sections:
       - title: Trackplan
         description: Facility management, job tracker
         icon: favicon
-        url: https://app3.mytrackplanfm.cloud/
+        url: https://app3.trackplanfm.com
         id: 0_305_trackplan
       - title: Trackplan FM
         description: Mobile job list
@@ -215,5 +215,5 @@ sections:
       - title: Github
         description: Notes
         icon: favicon
-        url: https://github.com/owen-totem-space/1.Markdown/blob/main/Map.md
+        url: https://github.com/owen-totem-space/1.Markdown/blob/main/Team-Map.md
         id: 2_1364_github
