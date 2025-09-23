@@ -39,6 +39,8 @@ pages:
     path: devices.yml
   - name: Rooms
     path: rooms.yml
+  - name: Admin
+    path: admin.yml
 
 pageInfo:
   title: Dashboard
@@ -225,62 +227,3 @@ sections:
         url: https://github.com/owen-totem-space/1.Markdown/blob/main/Map.md
         id: 2_1364_github
 
-  - name: Admin
-    icon: fa-solid fa-bug
-    displayData:
-      showForUsers: [owen]
-      itemSize: medium
-      sectionLayout: grid
-      itemCountX: 2
-    items:
-      - title: Portainer
-        icon: si-portainer
-        url: https://10.103.2.168:9443
-
-      - title: Chat GPT
-        url: https://chat.openai.com
-        icon: si-openai
-
-  - name: Tools & Utilities
-    icon: fa-solid fa-toolbox
-    displayData:
-      showForUsers: [owen]
-      sectionLayout: grid
-      itemCountX: 2
-      cols: 1
-      itemSize: small
-    items:
-      - title: Stage Timer
-        # description: Show a fullscreen timer to your presenter while you control it from another device
-        icon: favicon
-        url: https://stagetimer.io/
-
-      - title: Draw.io
-        url: https://draw.io
-        icon: favicon
-
-      - title: Have i been pwned?
-        url: https://haveibeenpwned.com/
-        icon: si-haveibeenpwned
-
-      - title: Online Web Toolkit
-        url: https://www.onlinewebtoolkit.com/hash-generator
-        icon: fa-solid fa-toolbox
-
-      - title: CopyChar
-        url: https://copychar.cc
-        icon: favicon
-
-      - title: Hash Generator
-        url: https://passwordsgenerator.net/sha256-hash-generator/
-        icon: generative
-
-      - title: Font Awesome
-        description: Font Awesome Icons
-        icon: favicon
-        url: https://fontawesome.com/v6/search?q=micro&ic=brands&o=r
-
-      - title: Simple Icons
-        description: Simple Icons
-        icon: favicon
-        url: https://simpleicons.org/
