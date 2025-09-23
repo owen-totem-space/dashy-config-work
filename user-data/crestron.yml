@@ -202,12 +202,3 @@ sections:
         icon: favicon
         url: https://training.qsc.com/mod/page/view.php?id=560
         id: 2_828_qsc
-pages:
-  - name: Control
-    path: control.yml
-  - name: Other Devices
-    path: other-devices.yml
-  - name: Crestron
-    path: crestron.yml
-  - name: Utilities
-    path: utilities.yml

@@ -29,15 +29,17 @@ appConfig:
         type: normal
   preventLocalSave: true
   disableConfigurationForNonAdmin: true
+
 pages:
-  - name: Xpanels
-    path: control.yml
-  - name: Other Devices
-    path: other-devices.yml
   - name: Crestron
     path: crestron.yml
-  - name: Utilities
-    path: utilities.yml
+  - name: Xpanels
+    path: control.yml
+  - name: Devices
+    path: devices.yml
+  - name: Rooms
+    path: rooms.yml
+
 pageInfo:
   title: Dashboard
   description: Links to awesome places
@@ -45,6 +47,7 @@ pageInfo:
   navLinks:
     - title: Home
       path: /
+
 sections:
   - name: Servers
     icon: fa-solid fa-server
@@ -69,6 +72,7 @@ sections:
         icon: si-Sennheiser
         url: http://10.102.24.53:8181/
         id: 2_746_sennheisercockpit
+
   - name: Office 365
     icon: fa-brands fa-microsoft
     displayData:
@@ -109,6 +113,7 @@ sections:
         url: >-
           https://rcsicampus.sharepoint.com/:u:/r/sites/MediaSevicesStaff/SitePages/Home.aspx?csf=1&web=1&e=lbKWFD
         id: 5_778_sharepoint
+
   - name: RCSI
     displayData:
       cols: 2
@@ -164,6 +169,7 @@ sections:
         url: >-
           https://staff.rcsi.ie/wp-content/uploads/2022/06/Online-Requisitions-Procurement-Validation-Form-2022-05-30-v1.0.xlsb
         id: 8_305_financeform
+
   - name: Suppliers
     icon: fa-solid fa-shopping-cart
     displayData:
@@ -195,6 +201,7 @@ sections:
         icon: favicon
         url: https://www.thomann.de
         id: 5_967_thomann
+
   - name: Miscellaneous
     icon: fa-solid fa-bug
     displayData:
@@ -217,3 +224,63 @@ sections:
         icon: favicon
         url: https://github.com/owen-totem-space/1.Markdown/blob/main/Map.md
         id: 2_1364_github
+
+  - name: Admin
+    icon: fa-solid fa-bug
+    displayData:
+      showForUsers: [owen]
+      itemSize: medium
+      sectionLayout: grid
+      itemCountX: 2
+    items:
+      - title: Portainer
+        icon: si-portainer
+        url: https://10.103.2.168:9443
+
+      - title: Chat GPT
+        url: https://chat.openai.com
+        icon: si-openai
+
+  - name: Tools & Utilities
+    icon: fa-solid fa-toolbox
+    displayData:
+      showForUsers: [owen]
+      sectionLayout: grid
+      itemCountX: 2
+      cols: 1
+      itemSize: small
+    items:
+      - title: Stage Timer
+        # description: Show a fullscreen timer to your presenter while you control it from another device
+        icon: favicon
+        url: https://stagetimer.io/
+
+      - title: Draw.io
+        url: https://draw.io
+        icon: favicon
+
+      - title: Have i been pwned?
+        url: https://haveibeenpwned.com/
+        icon: si-haveibeenpwned
+
+      - title: Online Web Toolkit
+        url: https://www.onlinewebtoolkit.com/hash-generator
+        icon: fa-solid fa-toolbox
+
+      - title: CopyChar
+        url: https://copychar.cc
+        icon: favicon
+
+      - title: Hash Generator
+        url: https://passwordsgenerator.net/sha256-hash-generator/
+        icon: generative
+
+      - title: Font Awesome
+        description: Font Awesome Icons
+        icon: favicon
+        url: https://fontawesome.com/v6/search?q=micro&ic=brands&o=r
+
+      - title: Simple Icons
+        description: Simple Icons
+        icon: favicon
+        url: https://simpleicons.org/
