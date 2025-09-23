@@ -29,8 +29,8 @@ services:
 
     # Pass in your config file below, by specifying the path on your host machine
     volumes:
-      - /home/owen/docker/dashy-work/user-data:/app/user-data
-      - /home/owen/docker/dashy-work/styles/custom-theme.scss:/app/src/styles/user-defined-themes.scss
+      - /home/owen/docker/dashy-config-work/user-data:/app/user-data
+      - /home/owen/docker/dashy-config-work/styles/custom-theme.scss:/app/src/styles/user-defined-themes.scss
 
     # Set port that web service will be served on. Keep container port as 80
     # UPDATE: Port 8080 is the new port in the latest version of dashy. 8080 is default docker port in server.js

@@ -216,7 +216,7 @@ sections:
         url: http://10.103.2.92
         id: 2_1220_boucherhayes
 pages:
-  - name: Control
+  - name: XPanels
     path: control.yml
   - name: Other Devices
     path: other-devices.yml

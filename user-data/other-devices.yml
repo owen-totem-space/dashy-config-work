@@ -409,7 +409,7 @@ sections:
         url: http://10.2.176.181/sony/webui
         id: 4_1432_sonybravia
 pages:
-  - name: Control
+  - name: XPanels
     path: control.yml
   - name: Other Devices
     path: other-devices.yml

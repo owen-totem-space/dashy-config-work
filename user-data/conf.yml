@@ -30,7 +30,7 @@ appConfig:
   preventLocalSave: true
   disableConfigurationForNonAdmin: true
 pages:
-  - name: Control
+  - name: Xpanels
     path: control.yml
   - name: Other Devices
     path: other-devices.yml
@@ -80,32 +80,32 @@ sections:
     items:
       - title: Office
         description: Office web app
-        icon: si-microsoft
+        icon: fa-brands fa-microsoft
         url: https://office.com
         id: 0_778_office
       - title: Outlook
         description: Microsoft Outlook
-        icon: si-microsoftoutlook
+        icon: fa-brands fa-microsoft
         url: https://outlook.office.com
         id: 1_778_outlook
       - title: Outlook Dept.
         description: Media Services Inbox
-        icon: si-microsoftoutlook
+        icon: fa-brands fa-microsoft
         url: https://outlook.office.com/mail/mediaservices@rcsi.ie
         id: 2_778_outlookdept
       - title: Teams
         description: Microsoft Teams
-        icon: si-microsoftteams
+        icon: fa-brands fa-microsoft
         url: https://teams.microsoft.com/l/app/<appId>
         id: 3_778_teams
       - title: OneDrive
         description: Microsoft OneDrive
-        icon: si-microsoftonedrive
+        icon: fa-brands fa-microsoft
         url: https://rcsicampus-my.sharepoint.com
         id: 4_778_onedrive
       - title: Sharepoint
         description: Dept. sharepoint page
-        icon: si-microsoftsharepoint
+        icon: fa-brands fa-microsoft
         url: >-
           https://rcsicampus.sharepoint.com/:u:/r/sites/MediaSevicesStaff/SitePages/Home.aspx?csf=1&web=1&e=lbKWFD
         id: 5_778_sharepoint

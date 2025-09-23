@@ -7,14 +7,37 @@ pageInfo:
       path: /
 
 sections:
+  - name: Admin
+    icon: fa-solid fa-bug
+    displayData:
+      showForUsers: [owen]
+      itemSize: small
+      sectionLayout: grid
+      itemCountX: 2
+    items:
+      - title: Portainer
+        description: Portainer
+        icon: si-portainer
+        url: https://10.103.2.168:9443
+
+      - title: Font Awesome
+        description: Font Awesome Icons
+        icon: favicon
+        url: https://fontawesome.com/v6/search?q=micro&ic=brands&o=r
+
+      - title: Simle Icons
+        description: Simple Icons
+        icon: favicon
+        url: https://simpleicons.org/
+
   - name: Tools & Utilities
     icon: fa-solid fa-toolbox
     displayData:
       # showForUsers: [owen]
       sectionLayout: grid
-      itemCountX: 9
-      cols: 4
-      itemSize: medium
+      itemCountX: 3
+      cols: 2
+      itemSize: small
     items:
       - title: Chat GPT
         url: https://chat.openai.com
@@ -44,3 +67,5 @@ sections:
       - title: Hash Generator
         url: https://passwordsgenerator.net/sha256-hash-generator/
         icon: generative
+
+
