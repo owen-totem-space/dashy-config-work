@@ -11,80 +11,87 @@ sections:
     icon: fa-solid fa-building
     displayData:
       cols: 4
+      # rows: 2
       itemCountX: 6
       sectionLayout: grid
-      rows: 2
-      itemSize: medium
+      itemSize: large
       color: '#63a46c20'
       sortBy: default
       collapsed: false
       hideForGuests: false
     items:
       - title: Exam Hall Rear
-        description: Exam Hall Rear Camera
+        description: Rear Camera
         icon: fa-solid fa-video
         url: http://10.2.120.72
         id: 0_700_examhallrear
       - title: Exam Hall Side
-        description: Exam Hall Rear Camera
+        description: Side Camera
         icon: fa-solid fa-video
         url: http://10.2.120.67
         id: 1_700_examhallside
       - title: College Hall
-        description: Exam Hall Rear Camera
+        description: Rear Camera
         icon: fa-solid fa-video
         url: http://10.2.160.54
         id: 2_700_collegehall
       - title: Desmond Left
-        description: Desmond Left Camera
+        description: Left Camera
         icon: fa-solid fa-video
         url: http://10.103.2.119
         id: 3_700_desmondleft
       - title: Desmond Right
-        description: Desmond Right Camera
+        description: Right Camera
         icon: fa-solid fa-video
         url: http://10.103.2.117
         id: 4_700_desmondright
       - title: Desmond Overhead
-        description: Desmond Overhead Camera
+        description: Overhead Camera
         icon: fa-solid fa-video
         url: http://10.103.2.120
         id: 5_700_desmondoverhead
       - title: KPL Front
-        description: KPL Front Camera
+        description: Front Camera
         icon: fa-solid fa-video
         url: http://10.2.176.222
         id: 6_700_kplfront
       - title: KPL Rear
-        description: KPL Rear Camera
+        description: Rear Camera
         icon: fa-solid fa-video
         url: http://10.2.176.220
         id: 7_700_kplrear
       - title: Radiology Front
+        description: Front Camera
         icon: fa-solid fa-video
         url: http://10.103.2.225
         id: 8_700_radiologyfront
       - title: Radiology Rear
+        description: Rear Camera
         icon: fa-solid fa-video
         url: http://10.103.2.226
         id: 9_700_radiologyrear
       - title: Carmichael
+        description: Camera
         icon: fa-solid fa-video
         url: http://10.36.0.122
         id: 10_700_carmichael
-      - title: PBS Lab - Front Cam
+      - title: PBS Lab Front Cam
+        description: Front Camera
         icon: fa-solid fa-video
         url: http://10.2.80.147
         id: 11_700_pbslabfrontcam
-      - title: PBS Lab - Middle Cam
+      - title: PBS Lab Middle Cam
+        description: Middle Camera
         icon: fa-solid fa-video
         url: http://10.2.80.126
         id: 12_700_pbslabmiddlecam
-      - title: PBS Lab - Left Cam
+      - title: PBS Lab Left Cam
+        description: Left Camera
         icon: fa-solid fa-video
         url: http://10.2.80.144
         id: 13_700_pbslableftcam
-      - title: PBS Lab - Right Cam
+      - title: PBS Lab Right Cam
+        description: Right Camera
         icon: fa-solid fa-video
         url: http://10.2.80.136
         id: 14_700_pbslabrightcam

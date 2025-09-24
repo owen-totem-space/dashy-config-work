@@ -34,7 +34,7 @@ pages:
   - name: Crestron
     path: crestron.yml
   - name: Xpanels
-    path: control.yml
+    path: xpanels.yml
   - name: Devices
     path: devices.yml
   - name: Rooms
