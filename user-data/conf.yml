@@ -221,7 +221,29 @@ sections:
         icon: favicon
         url: https://webapp.lens.poly.com
 
-      - title: Github
-        description: Notes
+      - title: Github Notes
+        description: Notes Repository
         icon: si-github
         url: https://github.com/owen-totem-space/1.Markdown/blob/main/Map.md
+
+  - name: Utilities
+    icon: fa-solid fa-bug
+    displayData:
+      itemSize: small
+      sectionLayout: grid
+      itemCountX: 1
+    items:
+      - title: RCSI Web Print
+        description: RCSI Web Print
+        icon: favicon
+        url: https://print.rcsi.com/user
+
+      - title: RCSI IT Guides
+        description: RCSI IT Guides
+        icon: fa-solid fa-desktop
+        url: https://rcsicampus.sharepoint.com/sites/itguides
+
+      - title: Blackboard Collaborate
+        description: Blackboard Collaborate
+        icon: fa-solid fa-school
+        url: https://eu.bbcollab.com/collab/ui/session/guest/ad5fb830ec6441d2a28c432e9c219b92
