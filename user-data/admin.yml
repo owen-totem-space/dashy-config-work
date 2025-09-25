@@ -7,21 +7,83 @@ pageInfo:
       path: /
 
 sections:
+  - name: News
+    icon: fa-solid fa-bug
+    displayData:
+      showForUsers: [owen]
+      itemSize: small
+      sectionLayout: grid
+      itemCountX: 1
+    items:
+      - title: Politico
+        icon: favicon
+        url: https://www.politico.eu/
+
+      - title: Associated Press
+        icon: favicon
+        url: https://apnews.com/
+
+      - title: Reuters
+        icon: favicon
+        url: https://www.reuters.com/
+
+      - title: RTE News
+        icon: favicon
+        url: https://www.rte.ie/news/
+
+      - title: Breaking News
+        icon: favicon
+        url: https://www.breakingnews.ie/
+
+      - title: BBC News
+        icon: favicon
+        url: https://www.bbc.com/
+
+      - title: Gript Media
+        icon: favicon
+        url: https://gript.ie/
+
   - name: Admin
     icon: fa-solid fa-bug
     displayData:
       showForUsers: [owen]
-      itemSize: medium
+      itemSize: large
       sectionLayout: grid
-      itemCountX: 2
+      # cols: 2
+      itemCountX: 1
     items:
       - title: Portainer
+        description: Docker management
         icon: si-portainer
         url: https://10.103.2.168:9443
 
-      - title: Chat GPT
-        icon: si-openai
-        url: https://chat.openai.com
+  - name: Social
+    icon: fa-solid fa-bug
+    displayData:
+      showForUsers: [owen]
+      itemSize: small
+      sectionLayout: grid
+      itemCountX: 1
+    items:
+      - title: YR
+        icon: si-yr
+        url: https://www.yr.no/en/forecast/daily-table/2-2964574/Ireland/Leinster/Dublin%20City/Dublin
+
+      - title: Reddit
+        icon: si-reddit
+        url: https://reddit.com
+
+      - title: Youtube
+        icon: si-youtube
+        url: https://youtube.com
+
+      - title: UKC
+        icon: favicon
+        url: https://www.ukclimbing.com/
+
+      - title: Explorers Web
+        icon: fa-solid fa-person-hiking
+        url: https://explorersweb.com/latest/
 
   - name: Tools & Utilities
     icon: fa-solid fa-toolbox
@@ -29,9 +91,12 @@ sections:
       showForUsers: [owen]
       sectionLayout: grid
       itemCountX: 2
-      cols: 1
       itemSize: small
     items:
+      - title: Chat GPT
+        icon: si-openai
+        url: https://chat.openai.com
+
       - title: Stage Timer
         # description: Show a fullscreen timer to your presenter while you control it from another device
         icon: favicon
@@ -66,51 +131,3 @@ sections:
         description: Simple Icons
         icon: favicon
         url: https://simpleicons.org/
-
-  - name: News & Social
-    icon: fa-solid fa-bug
-    displayData:
-      showForUsers: [owen]
-      itemSize: small
-      sectionLayout: grid
-      itemCountX: 2
-    items:
-      - title: UKC
-        icon: favicon
-        url: https://www.ukclimbing.com/
-
-      - title: Reddit
-        icon: si-reddit
-        url: https://reddit.com
-
-      - title: Explorers Web
-        icon: favicon
-        url: https://explorersweb.com/latest/
-
-      - title: Politico
-        icon: favicon
-        url: https://www.politico.eu/
-
-      - title: Associated Press
-        icon: favicon
-        url: https://apnews.com/
-
-      - title: Reuters
-        icon: favicon
-        url: https://www.reuters.com/
-
-      - title: RTE News
-        icon: favicon
-        url: https://www.rte.ie/news/
-
-      - title: Breaking News
-        icon: favicon
-        url: https://www.breakingnews.ie/
-
-      - title: BBC News
-        icon: favicon
-        url: https://www.bbc.com/
-
-      - title: Gript Media
-        icon: favicon
-        url: https://gript.ie/
