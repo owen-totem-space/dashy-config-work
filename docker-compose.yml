@@ -1,27 +1,16 @@
 ---
 services:
-  dashy:
-    # Pull latest image from DockerHub
-    image:
-      lissy93/dashy:latest
-    # You can also use an image with a different tag, or pull from a different registry, e.g:
-    # image: ghcr.io/lissy93/dashy or image: lissy93/dashy:arm64v8
-
+  dashy-work:
+    image: lissy93/dashy:latest
     volumes:
-      - /home/owen/docker/dashy-config-work/user-data:/app/user-data
-      - /home/owen/docker/dashy-config-work/styles/custom-theme.scss:/app/src/styles/user-defined-themes.scss
-
-    # Set port that web service will be served on. Keep container port as 80
-    # UPDATE: Port 8080 is the new port in the latest version of dashy. 8080 is default docker port in server.js
+      - /home/owen/dashy-config-work/user-data:/app/user-data
+      - /home/owen/dashy-config-work/styles/custom-theme.scss:/app/src/styles/user-defined-themes.scss
     ports:
       - 8080:8080
-
     environment:
       - NODE_ENV=production
-      # Specify your user ID and group ID. You can find this by running `id -u` and `id -g`
       - UID=1000
       - GID=1000
-
     restart: unless-stopped
 
     healthcheck:
@@ -30,3 +19,8 @@ services:
       timeout: 10s
       retries: 3
       start_period: 40s
+    networks:
+      - nginx-proxy
+networks:
+  nginx-proxy:
+    external: true

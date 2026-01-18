@@ -10,23 +10,23 @@ appConfig:
     hideSettings: true
   cssThemes:
     - dark-glow
-  auth:
-    users:
-      - user: owen
-        hash: 82b6cff31cfcbe0eb8f2743e3437f4d7274c15b7f61b062c52cfe5f69d4b1b7b
-        type: admin
-      - user: jquinlan@rcsi.com
-        hash: 179d82336230e54f645c86f5f9106e5f36f2a25d8559335a93c415413937cc49
-        type: normal
-      - user: jamiedockerty@rcsi.com
-        hash: 179d82336230e54f645c86f5f9106e5f36f2a25d8559335a93c415413937cc49
-        type: normal
-      - user: warrentierney@rcsi.com
-        hash: 179d82336230e54f645c86f5f9106e5f36f2a25d8559335a93c415413937cc49
-        type: normal
-      - user: stephenwest@rcsi.com
-        hash: 179d82336230e54f645c86f5f9106e5f36f2a25d8559335a93c415413937cc49
-        type: normal
+  # auth:
+  #   users:
+  #     - user: owen
+  #       hash: 82b6cff31cfcbe0eb8f2743e3437f4d7274c15b7f61b062c52cfe5f69d4b1b7b
+  #       type: admin
+  #     - user: jquinlan@rcsi.com
+  #       hash: 179d82336230e54f645c86f5f9106e5f36f2a25d8559335a93c415413937cc49
+  #       type: normal
+  #     - user: jamiedockerty@rcsi.com
+  #       hash: 179d82336230e54f645c86f5f9106e5f36f2a25d8559335a93c415413937cc49
+  #       type: normal
+  #     - user: warrentierney@rcsi.com
+  #       hash: 179d82336230e54f645c86f5f9106e5f36f2a25d8559335a93c415413937cc49
+  #       type: normal
+  #     - user: stephenwest@rcsi.com
+  #       hash: 179d82336230e54f645c86f5f9106e5f36f2a25d8559335a93c415413937cc49
+  #       type: normal
   preventLocalSave: true
   disableConfigurationForNonAdmin: true
 
@@ -170,7 +170,6 @@ sections:
         icon: fa-solid fa-file-excel
         url: >-
           https://staff.rcsi.ie/wp-content/uploads/2022/06/Online-Requisitions-Procurement-Validation-Form-2022-05-30-v1.0.xlsb
-
 
   - name: Suppliers
     icon: fa-solid fa-shopping-cart
